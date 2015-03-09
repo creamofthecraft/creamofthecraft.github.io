@@ -14,9 +14,9 @@ details:		false
 
 author: 		Cream Of the Craft Team
 bio: 			I'm a freelance web designer who enjoys creating beautiful and standard compliant solutions for my clients from all around the world.
-facebook: 		"http://facebook.com/enjoycrafting"
-instagram: 		"http://instagram.com/creamofthecraft"
-twitter: 		"http://twitter.com/creamofthecraft"
+facebook: 		"https://facebook.com/enjoycrafting"
+instagram: 		"https://instagram.com/creamofthecraft"
+twitter: 		"https://twitter.com/creamofthecraft"
 ---
 
 ## A Basket of garden series
