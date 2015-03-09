@@ -3,7 +3,7 @@
 layout:			default
 title:  		Made with Love
 type:			page
-navigation: 	false
+navigation: 	true
 
 date:   		2015-01-01
 excerpt: 		Each item is carefully crafted by happy crafters. Every detail comes from an explosion of an idea and settled in on a polished piece of art. We go beyond the flowers, we are all in for the craftsmanship.
