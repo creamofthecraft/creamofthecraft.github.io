@@ -1,0 +1,23 @@
+# Site Settings
+baseurl: 		""
+title: 			 Cream of the Craft
+
+name: 			<i>Cream Of The</i> Craft
+description: 	Showcasing the best of our <i>Craft</i>
+url: 			"http://localhost:4000"
+
+paginate: 		3
+paginate_path: 	"blog/page:num"
+
+facebook: 		enjoycrafting
+instagram: 		creamofthecraft
+twitter: 		creamofthecraft
+email: 			enjoycreamofthecraft@gmail.com
+
+disqus: 		your_disqus_shortname
+analytics: 		UA-XXXXXXX-Y
+
+copyright: 		Copyright 2015 Cream Of The Craft.	
+
+# Build Settings
+permalinks: 	pretty

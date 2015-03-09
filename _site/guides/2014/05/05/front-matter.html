@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <title>Front-matter matters, literally</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Showcasing the best of our <i>Craft</i>" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Cream of the Craft" />
+    <meta property="og:title" content="Front-matter matters, literally" />
+    <meta property="og:description" content="Showcasing the best of our <i>Craft</i>" />
+    <meta property="og:url" content="http://localhost:4000/guides/2014/05/05/front-matter.html" />
+    <meta property="og:image" content="http://localhost:4000/images/header-3.jpg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Front-matter matters, literally" />
+    <meta name="twitter:description" content="Showcasing the best of our <i>Craft</i>" />
+    <meta name="twitter:url" content="http://localhost:4000/guides/2014/05/05/front-matter.html" />
+    <meta name="twitter:image" content="http://localhost:4000/images/header-3.jpg" />
+    <meta name="twitter:site" content="@creamofthecraft" />
+
+    <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="Front-matter matters, literally" />
+    <link rel="canonical" href="/guides/2014/05/05/front-matter.html" />
+
+    <link rel="stylesheet" href="/assets/normalize.css" />
+    <link rel="stylesheet" href="/assets/animate.css" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-XXXXXXX-Y', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+
+  </head>  
+
+  <body>
+
+    <header data-animation="fadeInDownBig">
+      
+      <a href="/" title="Back to Homepage" class="logo"><i>Cream Of The</i> Craft</a>
+
+      
+      
+
+      <button class="toggle">Menu</button>
+      <nav>
+        <ul>
+          <li><a href="/" title="Home">Home</a></li>
+          
+            
+          
+            
+              <li><a href="/about.html" title="About <i>Cream Of The</i>Craft">About <i>Cream Of The</i>Craft</a></li>
+            
+          
+            
+          
+            
+              <li><a href="/credits.html" title="Credits &amp; Sources">Credits &amp; Sources</a></li>
+            
+          
+            
+              <li><a href="/why-jekyll.html" title="Why Jekyll?">Why Jekyll?</a></li>
+            
+          
+          
+        </ul>
+      </nav>
+
+    </header>
+
+
+	
+
+
+<section class="content">
+  
+	<article>
+    
+		<header class="gradient-4" data-animation="fadeInDownBig">
+
+			<div class="overlay" style="background-image: url(/images/header-3.jpg);" data-parallax="9"></div>
+      
+<div class="excerpt">
+        
+	<span class="title">2 minutes</span>
+
+	
+
+		
+			<h1><a href="/guides/2014/05/05/front-matter.html" title="Front-matter matters, literally">Front-matter matters, literally</a></h1>
+		
+		
+	
+
+	<p>By now you should be already familiar with the concept of front-matter to control content and layout. Aside from basic options, <b>there are a few more</b> I'd like to introduce you to — <i>even though they're just optional</i>.</p>
+
+	
+
+		
+			<span class="meta">Published <b>May 5, 2014</b> in <b>guides</b></span>
+		
+	
+	
+
+</div>
+
+
+	<a href="#" title="Scroll" class="scroll">Scroll</a>
+
+
+		</header>
+
+		<div class="body" data-animation="fadeInUp">
+
+			<h2 id="advanced-optional-front-matter">Advanced, optional front-matter</h2>
+
+<p>You already know how to <em>create posts and pages</em> and <em>what front-matter means</em>. But did you also know that front-matter is a <strong>seriously powerful way to control contents and appearance</strong> of each page?</p>
+
+<p>Meet the advanced, optional front-matter you can add to the top of each post or page.</p>
+
+<div class="media image" data-animation="fadeInUp">
+
+	
+		<img src="/images/advanced-front-matter.jpg" alt="Advanced front-matter" />
+	
+
+	
+		<div class="caption" data-animation="fadeInRightBig">
+		  
+		  
+		  	<h4>Advanced front-matter</h4>
+		  
+
+		  
+		  	<p>This is the front-matter of the page you're currently viewing</p>
+		  
+
+		  
+
+		</div>
+	
+
+</div>
+
+<p>Below you’ll see a <em>detailed description of each of these options</em>, what they do and how you can use them in order to control many aspects of the page easily — I’ll skip <code>layout</code>, <code>title</code> and <code>type</code> though.</p>
+
+<ul>
+  <li><strong>navigation:</strong> Can be either <code>true</code> or <code>false</code> and controls wether the post or page appears in the navigation or not. This just works if <code>type</code> is either set to <code>post</code> or <code>page</code>.</li>
+  <li><strong>date:</strong> It’s a good practice to set the date within each file as well even though it’s not required. The order of all posts and pages added to the navigation depends on their date too.</li>
+  <li><strong>excerpt:</strong> A <strong>quick summary</strong> which shows up on top of each page as well as on the homepage listing.</li>
+  <li><strong>categories:</strong> Add one or more <code>categories</code> for each page or post — they’re part of the excerpt and influence the way Jekyll builds the sites hierarchy.</li>
+  <li><strong>gradient:</strong> Specify a number between 1 and 5 to define the <strong>color of the gradient</strong> applied to the header of the post or page.</li>
+  <li><strong>image:</strong> Add an image to the <code>images</code> folder and add its file name here so it shows up on top of the page. The <strong>perfect size would be 1200 x 700px</strong> but everything should work just fine considering that it will be scaled accordingly anyway.</li>
+  <li><strong>details:</strong> Can be either <code>true</code> or <code>false</code> and specifies wether the header image selected for this page will show up in the homepage listing as well.</li>
+  <li><strong>author:</strong> Feel free to add the name of the posts or pages author.</li>
+  <li><strong>bio:</strong> A short description or bio can be appended too.</li>
+</ul>
+
+<p>The remaining front-matter should be self-explanatory in my opinion and you’re able to <em>attach various social media profile links</em> to the authors profile. </p>
+
+<p>Please keep in mind though that <strong>links usually include colons and these are reserved by YAML</strong>. That said, make sure that you wrap links (and literally anything else which might include colons) into quotes so they don’t break it.</p>
+
+
+		</div>
+
+		<footer>
+
+			
+
+  <div class="meta">
+
+    <div class="author" data-animation="fadeInUp">
+                  
+      <span class="title">Written by</span>
+
+      <h4>Maximilian Bartel</h4>
+      <p>I'm a freelance web designer who enjoys creating beautiful and standard compliant solutions for my clients from all around the world.</p>
+
+      
+        <ul>
+          <li><a href="http://facebook.com" title="Facebook" class="icon facebook">Facebook</a></li>
+          
+          <li><a href="http://twitter.com/indiqo" title="Twitter" class="icon twitter">Twitter</a></li>
+          <li><a href="http://google.com" title="Google" class="icon google">Google</a></li>
+          <li><a href="http://linkedin.com" title="LinkedIn" class="icon linkedin">LinkedIn</a></li>
+          <li><a href="http://pinterest.com" title="Pinterest" class="icon pinterest">Pinterest</a></li>
+          <li><a href="http://flickr.com" title="Flickr" class="icon flickr">Flickr</a></li>
+          <li><a href="http://dribbble.com" title="Dribbble" class="icon dribbble">Dribbble</a></li>
+          <li><a href="feed://themeforest.net/feeds/users/indiqo" title="RSS" class="icon rss">RSS</a></li>
+        </ul>
+      
+
+    </div>
+
+    <div class="share" data-animation="fadeInUp">
+                  
+      <span class="title">Share</span>
+
+      <ul>
+        <li><a href="https://twitter.com/home?status=Showcasing%20the%20best%20of%20our%20%3Ci%3ECraft%3C/i%3E%20http://localhost:4000/guides/2014/05/05/front-matter.html" title="Tweet" class="icon twitter">Tweet</a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/guides/2014/05/05/front-matter.html" title="Like" class="icon facebook">Like</a></li>
+        <li><a href="https://plus.google.com/share?url=http://localhost:4000/guides/2014/05/05/front-matter.html" title="+1" class="icon google">+1</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+
+			
+  <div class="comments" data-animation="fadeInUp">
+    
+    <span class="title">Comments</span>
+    <div id="disqus_thread"></div>
+
+    <script type="text/javascript">
+      var disqus_shortname = 'your_disqus_shortname';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+
+    <noscript>
+      Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+  </div>
+
+
+			
+
+	<div class="pagination" data-animation="fadeInUp">
+		
+		<a href="/guides/2014/05/06/configuration.html" title="View Newer Posts" class="button newer">Newer</a>
+	</div>
+
+
+
+
+
+		</footer>
+
+	</article>
+
+</section>
+
+
+
+	
+		
+	
+
+	
+		
+	
+
+	<section class="teaser gradient-3" data-animation="fadeInUp">
+	      
+		<div class="excerpt">
+	            
+			<span class="title">1 minute</span>
+
+			
+				<h1><a href="/guides/2014/05/06/configuration.html" title="Configuration">Configuration</a></h1>
+			
+
+			<p>Wether you'd like to change the sites <b>title</b>, <b>description</b> and <b>contact email address</b> or just like to enable the <b>comment system</b> or <b>Google Analytics</b> — <i>all of it can be done in one single place</i>.</p>
+
+			
+				<span class="meta">Published <b>May 6, 2014</b> in <b>guides</b></span>
+			
+
+		</div>
+
+	</section>
+
+
+
+    
+
+      <footer data-animation="fadeInUp">
+        <div class="copyright">
+          <b>Copyright 2015 Cream Of The Craft.</b> All Rights Reserved.
+        	<a href="mailto:enjoycreamofthecraft@gmail.com" title="Send E-Mail">Contact</a>
+        	<a href="/feed.xml" title="Subscribe to Feed">RSS</a>
+        </div>
+      </footer>
+      
+    
+    
+    <script src="/assets/jquery-2.1.1.min.js"></script>
+    <script src="/assets/viewportchecker.js"></script>
+    <script src="/assets/scripts.js"></script>
+
+  </body>
+
+</html>

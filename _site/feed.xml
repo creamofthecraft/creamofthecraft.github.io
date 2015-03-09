@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;i&gt;Cream Of The&lt;/i&gt; Craft</title>
+    <description>Showcasing the best of our &lt;i&gt;Craft&lt;/i&gt;</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Getting started</title>
+        <description>&lt;p&gt;In order to get started with Jekyll, please have a look at the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;official Jekyll website&lt;/a&gt; first. &lt;/p&gt;
+
+&lt;p&gt;It basically explains everything you’ll need to know how to &lt;strong&gt;install Jekyll on your system&lt;/strong&gt; accordingly. &lt;/p&gt;
+
+&lt;p&gt;Don’t be afraid of the terminal or console by the way, it’s really not as difficult as it might seems at first sight. I’ll do my very best to guide you through rest of the theme setup process afterwards.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to send me an email to &lt;strong&gt;hello[at]indiqo.eu&lt;/strong&gt; at any time if you should get stuck or have problems — &lt;em&gt;I’ll see what I can do in order to help you out&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/jekyll-website.jpg&quot; alt=&quot;Jekyll Website&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Jekyll Website&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;The documentation includes everything you need to know to install Jekyll — it&#39;s an excellent reference too&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://jekyllrb.com&quot; title=&quot;Visit Website&quot; class=&quot;icon image&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;Now that you got the latest version of Jekyll, it’s time to build our first website.&lt;/p&gt;
+
+&lt;p&gt;In order to do that, you’ll have to &lt;strong&gt;extract the theme archive first&lt;/strong&gt; to a directory of your choice. Depending on your operating system, an unarchiver might be preinstalled already or you can use applications like &lt;a href=&quot;http://www.winzip.de&quot;&gt;WinZip&lt;/a&gt; for Windows or &lt;a href=&quot;http://archiverapp.com&quot;&gt;Archiver&lt;/a&gt; for OSX.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/archiver-app-website.jpg&quot; alt=&quot;Archiver Website&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Archiver Website&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;It&#39;s just a good old zip archive so any of them will work perfectly fine&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://archiverapp.com&quot; title=&quot;Visit Website&quot; class=&quot;icon image&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Good job!&lt;/strong&gt; As you can see, the theme includes various different files and folders.&lt;/p&gt;
+
+&lt;p&gt;In order to understand the directory structure a little more and to get to know what each file and folder does, I’d like to refer you back to the &lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot;&gt;Jekyll documentation&lt;/a&gt; which is rather useful and quite comprehensive.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/directory-structure.jpg&quot; alt=&quot;Directory Structure&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Directory Structure&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;It should pretty much look like this now&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; title=&quot;Visit Website&quot; class=&quot;icon image&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;To turn the theme and sample data into a static website now, please &lt;strong&gt;open up your terminal or console&lt;/strong&gt; and change the directory (&lt;code&gt;cd&lt;/code&gt;) you’re currently in to your unzipped themes folder.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/change-directory.jpg&quot; alt=&quot;Change Directory&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Change Directory&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;Useful hint: Just enter &#39;cd&#39; into the terminal or console and drag the theme folder into the window before hitting enter — works perfectly at least on OSX&lt;/p&gt;
+		  
+
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;Now let the magic happen and &lt;strong&gt;build the site&lt;/strong&gt; by running &lt;code&gt;jekyll build&lt;/code&gt; or start a local webserver via &lt;code&gt;jekyll serve&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;A new folder called &lt;code&gt;_site&lt;/code&gt; will be created which includes the entire website ready to be pushed to your webserver via FTP for example.&lt;/p&gt;
+
+&lt;p&gt;Please keep in mind that Jekyll &lt;strong&gt;sites are meant to run on webservers and not on file systems&lt;/strong&gt; which means that links and references are relative. If you open up one of the generated HTML pages locally, they most likely won’t be styled at all, images won’t show up and links can be broken at least particularly. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;That’s normal and intended so don’t panic!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just push the contents of the &lt;code&gt;_site&lt;/code&gt; folder to your webserver or start a local one and you’ll see that it works just the way it should. &lt;code&gt;jekyll serve&lt;/code&gt; does that for you as well by the way and you can access it by opening &lt;code&gt;http://localhost:4000&lt;/code&gt; in your browser.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 May 2014 00:00:00 +0800</pubDate>
+        <link>/guides/2014/05/09/getting-started.html</link>
+        <guid isPermaLink="true">/guides/2014/05/09/getting-started.html</guid>
+      </item>
+    
+      <item>
+        <title>Adding posts and pages</title>
+        <description>&lt;h2 id=&quot;posts&quot;&gt;Posts&lt;/h2&gt;
+
+&lt;p&gt;In order to add a new post to your site, just create a new file within the &lt;code&gt;_posts&lt;/code&gt; directory with a suitable file extension, by default that should be &lt;code&gt;.md&lt;/code&gt; or &lt;code&gt;.markdown&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Naming conventions are important and so you should make sure to give it a file name with a structure like &lt;code&gt;YYYY-MM-DD-my-first-post.md&lt;/code&gt;, similar to the example posts you can already tinker with.&lt;/p&gt;
+
+&lt;p&gt;Jekyll will order your articles by the date included in the file name, so it’s required that you choose a file name which follows this convention exactly.&lt;/p&gt;
+
+&lt;h3 id=&quot;front-matter&quot;&gt;Front-matter&lt;/h3&gt;
+
+&lt;p&gt;Each file which shall be processed by Jekyll needs to start with so called &lt;strong&gt;front-matter&lt;/strong&gt; which provides some kind of configuration to the processor, so it will be able to render each page properly.&lt;/p&gt;
+
+&lt;p&gt;Essentially, front-matter is written in &lt;strong&gt;YAML&lt;/strong&gt; and &lt;strong&gt;starts and ends with three dashes&lt;/strong&gt; followed by the posts content itself.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/basic-front-matter.jpg&quot; alt=&quot;Basic front-matter&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Basic front-matter&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;Example of basic front-matter required by each post and page — everything else is optional&lt;/p&gt;
+		  
+
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;layout:&lt;/strong&gt; The layout will be always &lt;code&gt;default&lt;/code&gt; so don’t think about it too much and feel free to copy and paste it into the front-matter area of each post.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;title:&lt;/strong&gt; The title will be &lt;strong&gt;what you can see on top of each page&lt;/strong&gt; as well as in the overview on the homepage.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;type:&lt;/strong&gt; The type defines the &lt;strong&gt;format of each page&lt;/strong&gt; — you can choose between &lt;code&gt;post&lt;/code&gt;, &lt;code&gt;page&lt;/code&gt; or &lt;code&gt;home&lt;/code&gt;, but we’ll use &lt;code&gt;post&lt;/code&gt; for now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please feel free to &lt;strong&gt;have a look at the existing posts and pages&lt;/strong&gt; shipped with this theme in order to get an idea how it works. &lt;/p&gt;
+
+&lt;p&gt;Now that the configuration has been done, just &lt;strong&gt;write some Markdown&lt;/strong&gt; below the second line of dashes, &lt;strong&gt;hit save&lt;/strong&gt;, &lt;strong&gt;open up your terminal or console&lt;/strong&gt; again and enter &lt;code&gt;jekyll build&lt;/code&gt; once again to generate the output.&lt;/p&gt;
+
+&lt;h3 id=&quot;useful-hint&quot;&gt;Useful hint&lt;/h3&gt;
+
+&lt;p&gt;Nobody likes to enter the &lt;code&gt;jekyll build&lt;/code&gt; command manually all of the time. In fact, &lt;code&gt;jekyll build&lt;/code&gt; is just the most basic command it offers and let me say it as it is, it’s definitely not the most convenient solution.&lt;/p&gt;
+
+&lt;p&gt;For example, there’s an option which watches your folder for changes and automatically builds the new site for you immediately. Once again, please have a closer look at the &lt;a href=&quot;http://jekyllrb.com/docs/usage/&quot;&gt;Jekyll documentation&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2 id=&quot;pages&quot;&gt;Pages&lt;/h2&gt;
+
+&lt;p&gt;In general, &lt;em&gt;pages work more or less just like posts&lt;/em&gt; — in fact, they even share the same front-matter. &lt;/p&gt;
+
+&lt;p&gt;The only difference might be the layout, because pages usually don’t have next or previous pages and so &lt;strong&gt;there’s no teaser at the bottom&lt;/strong&gt; obviously and &lt;strong&gt;comments are just available for posts&lt;/strong&gt;, but aside from that, they’re pretty much identical.&lt;/p&gt;
+
+&lt;p&gt;In order to create a page instead of a post, please &lt;em&gt;create a new file in the root of this theme&lt;/em&gt; and add a file extension such as &lt;code&gt;.html&lt;/code&gt;, &lt;code&gt;.md&lt;/code&gt; or &lt;code&gt;.markdown&lt;/code&gt;, depending on your own preference.&lt;/p&gt;
+
+&lt;p&gt;Considering that it’s a static page and not a sequence of posts, &lt;strong&gt;we don’t need a date&lt;/strong&gt; in its file name anymore and so it could look like this for example: &lt;code&gt;my-first-page.md&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Add just the same front-matter, but instead of setting &lt;code&gt;type&lt;/code&gt; to &lt;code&gt;post&lt;/code&gt;, it should be &lt;code&gt;page&lt;/code&gt; this time. &lt;em&gt;Rebuild the site once again&lt;/em&gt; via &lt;code&gt;jekyll build&lt;/code&gt; or a more advanced command and that’s it already!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 May 2014 00:00:00 +0800</pubDate>
+        <link>/guides/2014/05/08/adding-posts-and-pages.html</link>
+        <guid isPermaLink="true">/guides/2014/05/08/adding-posts-and-pages.html</guid>
+      </item>
+    
+      <item>
+        <title>Adding media with captions</title>
+        <description>&lt;p&gt;&lt;em&gt;First things first:&lt;/em&gt; You can use the following shortcodes on &lt;strong&gt;every page&lt;/strong&gt; and in &lt;strong&gt;every post&lt;/strong&gt; as often as you like directly in between of your written contents.&lt;/p&gt;
+
+&lt;p&gt;They are most likely the &lt;em&gt;easiest way to enrich your contents&lt;/em&gt; with suitable media, you can add &lt;strong&gt;captions&lt;/strong&gt;, &lt;strong&gt;descriptions&lt;/strong&gt; and &lt;strong&gt;links&lt;/strong&gt; to them and they also &lt;em&gt;seamlessly adapt to the screen size of your visitors&lt;/em&gt; to avoid breaking the look and feel.&lt;/p&gt;
+
+&lt;p&gt;Below I’ll just add a few images, videos and audio files for reference purposes and will try to describe how it works.&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Let’s begin with an &lt;strong&gt;image&lt;/strong&gt; which has been already added to the &lt;code&gt;images&lt;/code&gt; folder inside the theme directory which is mandatory for this type of media by the way.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/shortcode-image.jpg&quot; alt=&quot;Shorcode Preview&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Shorcode Preview&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;This is how each of the shortcodes look like — the ideal image width should be at least 796px by the way&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://themeforest.net/user/indiqo&quot; title=&quot;Visit Website&quot; class=&quot;icon image&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;youtube-videos&quot;&gt;YouTube videos&lt;/h3&gt;
+
+&lt;p&gt;Next up, a &lt;strong&gt;video on YouTube&lt;/strong&gt; — I really like Jack Johnson’s music and listened to it pretty much all of the time while working on this theme, so why not share a video with you.&lt;/p&gt;
+
+&lt;div class=&quot;media youtube&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;iframe src=&quot;http://www.youtube.com/embed/PeFJlk8eOhQ&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;You And Your Heart&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;Just add the video url and the shortcode will do everything else for you&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://jackjohnsonmusic.com&quot; title=&quot;Visit Website&quot; class=&quot;icon video&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;vimeo-videos&quot;&gt;Vimeo videos&lt;/h3&gt;
+
+&lt;p&gt;Of course it’s also possible to do just the same with &lt;strong&gt;Vimeo videos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;media vimeo&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;iframe src=&quot;http://player.vimeo.com/video/20344943?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=eb2344&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Love Snowboarding&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;All contents automatically adjust their size depending on the visitors screen resolution&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://protectourwinters.org&quot; title=&quot;Visit Website&quot; class=&quot;icon video&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;soundcloud-music&quot;&gt;Soundcloud music&lt;/h3&gt;
+
+&lt;p&gt;Adding &lt;strong&gt;music from Soundcloud&lt;/strong&gt; is that easy too.&lt;/p&gt;
+
+&lt;div class=&quot;media audio&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;iframe src=&quot;https://w.soundcloud.com/player/?url=https://soundcloud.com/avicii-tomorrowland-2013/avicii-live-at-tomorrowland-2013&amp;amp;color=eb2344&amp;amp;auto_play=false&amp;amp;hide_related=true&amp;amp;show_artwork=true&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Great Sound&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;Quite convenient.. for a static site generator.&lt;/p&gt;
+		  
+
+		  
+		  	&lt;a href=&quot;http://www.tomorrowland.com&quot; title=&quot;Visit Website&quot; class=&quot;icon audio&quot;&gt;Visit Website&lt;/a&gt;
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 07 May 2014 00:00:00 +0800</pubDate>
+        <link>/guides/2014/05/07/adding-media-with-captions.html</link>
+        <guid isPermaLink="true">/guides/2014/05/07/adding-media-with-captions.html</guid>
+      </item>
+    
+      <item>
+        <title>Configuration</title>
+        <description>&lt;p&gt;Now that you should be familiar with &lt;strong&gt;YAML and basic front-matters&lt;/strong&gt;, it should be easy to adjust the sites global settings.&lt;/p&gt;
+
+&lt;p&gt;In order to do so, please open up the &lt;code&gt;_config.yml&lt;/code&gt; file in your favorite code or text editor.&lt;/p&gt;
+
+&lt;p&gt;Similar to front-matter of posts and pages, the area between both triple-dashes includes various options to configure the site.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/config-example.jpg&quot; alt=&quot;Default Settings&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Default Settings&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;This is how the default config file looks like — not too complex though&lt;/p&gt;
+		  
+
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;Some of them, such as &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, &lt;code&gt;url&lt;/code&gt; or &lt;code&gt;copyright&lt;/code&gt; should be self-explaining, so let’s have a look at the others below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;baseurl:&lt;/strong&gt; The &lt;code&gt;baseurl&lt;/code&gt; can remain empty by default and is just required if you’re going to &lt;strong&gt;host your site in a subfolder&lt;/strong&gt; of your webspace such as &lt;code&gt;/blog&lt;/code&gt; for example. In this case, you would have to add &lt;code&gt;/blog&lt;/code&gt; as value of this option to make sure paths will be correct.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;paginate:&lt;/strong&gt; Defines the amount of posts displayed per page on the homepage.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;paginate_path:&lt;/strong&gt; This option defines the folder structure for paginated index pages. It’s slightly more advanced and you can just &lt;strong&gt;leave it as it is&lt;/strong&gt; — for more details, please feel free to have a look at &lt;a href=&quot;http://jekyllrb.com/docs/pagination/&quot;&gt;this page&lt;/a&gt; on the Jekyll website.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;twitter:&lt;/strong&gt; Please feel free to add your &lt;strong&gt;Twitter username&lt;/strong&gt; without the &lt;em&gt;@&lt;/em&gt; here or leave it empty. The username will be used for &lt;a href=&quot;https://dev.twitter.com/cards&quot;&gt;Twitter Cards&lt;/a&gt; supported by the theme.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;disqus:&lt;/strong&gt; Sign up for a free account on &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; and &lt;strong&gt;add your unique shortname&lt;/strong&gt; to this option in order to enable comments for each post.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;analytics:&lt;/strong&gt; Add your &lt;a href=&quot;https://www.google.de/analytics/&quot;&gt;Google Analytics&lt;/a&gt; &lt;strong&gt;Tracking ID&lt;/strong&gt; here to enable statistics and tracking of each post and page.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 May 2014 00:00:00 +0800</pubDate>
+        <link>/guides/2014/05/06/configuration.html</link>
+        <guid isPermaLink="true">/guides/2014/05/06/configuration.html</guid>
+      </item>
+    
+      <item>
+        <title>Front-matter matters, literally</title>
+        <description>&lt;h2 id=&quot;advanced-optional-front-matter&quot;&gt;Advanced, optional front-matter&lt;/h2&gt;
+
+&lt;p&gt;You already know how to &lt;em&gt;create posts and pages&lt;/em&gt; and &lt;em&gt;what front-matter means&lt;/em&gt;. But did you also know that front-matter is a &lt;strong&gt;seriously powerful way to control contents and appearance&lt;/strong&gt; of each page?&lt;/p&gt;
+
+&lt;p&gt;Meet the advanced, optional front-matter you can add to the top of each post or page.&lt;/p&gt;
+
+&lt;div class=&quot;media image&quot; data-animation=&quot;fadeInUp&quot;&gt;
+
+	
+		&lt;img src=&quot;/images/advanced-front-matter.jpg&quot; alt=&quot;Advanced front-matter&quot; /&gt;
+	
+
+	
+		&lt;div class=&quot;caption&quot; data-animation=&quot;fadeInRightBig&quot;&gt;
+		  
+		  
+		  	&lt;h4&gt;Advanced front-matter&lt;/h4&gt;
+		  
+
+		  
+		  	&lt;p&gt;This is the front-matter of the page you&#39;re currently viewing&lt;/p&gt;
+		  
+
+		  
+
+		&lt;/div&gt;
+	
+
+&lt;/div&gt;
+
+&lt;p&gt;Below you’ll see a &lt;em&gt;detailed description of each of these options&lt;/em&gt;, what they do and how you can use them in order to control many aspects of the page easily — I’ll skip &lt;code&gt;layout&lt;/code&gt;, &lt;code&gt;title&lt;/code&gt; and &lt;code&gt;type&lt;/code&gt; though.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;navigation:&lt;/strong&gt; Can be either &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt; and controls wether the post or page appears in the navigation or not. This just works if &lt;code&gt;type&lt;/code&gt; is either set to &lt;code&gt;post&lt;/code&gt; or &lt;code&gt;page&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;date:&lt;/strong&gt; It’s a good practice to set the date within each file as well even though it’s not required. The order of all posts and pages added to the navigation depends on their date too.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;excerpt:&lt;/strong&gt; A &lt;strong&gt;quick summary&lt;/strong&gt; which shows up on top of each page as well as on the homepage listing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;categories:&lt;/strong&gt; Add one or more &lt;code&gt;categories&lt;/code&gt; for each page or post — they’re part of the excerpt and influence the way Jekyll builds the sites hierarchy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gradient:&lt;/strong&gt; Specify a number between 1 and 5 to define the &lt;strong&gt;color of the gradient&lt;/strong&gt; applied to the header of the post or page.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;image:&lt;/strong&gt; Add an image to the &lt;code&gt;images&lt;/code&gt; folder and add its file name here so it shows up on top of the page. The &lt;strong&gt;perfect size would be 1200 x 700px&lt;/strong&gt; but everything should work just fine considering that it will be scaled accordingly anyway.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;details:&lt;/strong&gt; Can be either &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt; and specifies wether the header image selected for this page will show up in the homepage listing as well.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;author:&lt;/strong&gt; Feel free to add the name of the posts or pages author.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bio:&lt;/strong&gt; A short description or bio can be appended too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The remaining front-matter should be self-explanatory in my opinion and you’re able to &lt;em&gt;attach various social media profile links&lt;/em&gt; to the authors profile. &lt;/p&gt;
+
+&lt;p&gt;Please keep in mind though that &lt;strong&gt;links usually include colons and these are reserved by YAML&lt;/strong&gt;. That said, make sure that you wrap links (and literally anything else which might include colons) into quotes so they don’t break it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 May 2014 00:00:00 +0800</pubDate>
+        <link>/guides/2014/05/05/front-matter.html</link>
+        <guid isPermaLink="true">/guides/2014/05/05/front-matter.html</guid>
+      </item>
+    
+  </channel>
+</rss>
