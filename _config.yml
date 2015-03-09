@@ -4,7 +4,7 @@ title: 			 Cream of the Craft
 
 name: 			<i>Cream Of The</i> Craft
 description: 	Showcasing the best of our <i>Craft</i>
-url: 			"http://localhost:4000"
+
 
 paginate: 		3
 paginate_path: 	"blog/page:num"
