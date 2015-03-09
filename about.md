@@ -1,7 +1,7 @@
 ---
 
 layout:			default
-title:  		About <i>Cream Of The</i>Craft
+title:  		About <i>Cream Of The</i> Craft
 type:			page
 navigation: 	true
 
