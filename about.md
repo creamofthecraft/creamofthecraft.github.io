@@ -10,6 +10,10 @@ excerpt: 		We are passionate crafters. We constantly look for ways to express ou
 gradient: 		2
 image: 			header-bear.jpg
 
+facebook: 		"https://facebook.com/enjoycrafting"
+instagram: 		"https://instagram.com/creamofthecraft"
+twitter: 		"https://twitter.com/creamofthecraft"
+
 ---
 
 ## About Cream Of The Craft
