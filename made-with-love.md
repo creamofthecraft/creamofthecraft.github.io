@@ -22,7 +22,7 @@ twitter: 		"https://twitter.com/creamofthecraft"
 ## A Basket of garden series
 {% include price-list.html file="teddy-n-basket.jpg" title="Teddy 'n Basket" caption="comes with 20 pieces of snowy flowers with FREE spray" price="Php 650" %}
 
-{% include price-list.html file="shortcode-image.jpg" title="Metal Bike with Basket" caption="comes with 12 pieces of snowy flowers with FREE spray" price="Php 400" %}
+{% include price-list.html file="metal-bike.jpg" title="Metal Bike with Basket" caption="comes with 12 pieces of snowy flowers with FREE spray" price="Php 400" %}
 
 {% include price-list.html file="metal-carriage.jpg" title="Metal Baby Carriage" caption="comes with 12 pieces of snowy flowers with FREE spray" price="Php 400" %}
 
