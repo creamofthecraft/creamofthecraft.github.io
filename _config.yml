@@ -21,5 +21,3 @@ copyright: 		Copyright 2015 Cream Of The Craft.
 
 # Build Settings
 permalinks: 	pretty
-
-gems:    		[jekyll-time-to-read]

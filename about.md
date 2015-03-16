@@ -26,7 +26,7 @@ Back in mid-2014, we discovered this special kind chrysanthemum. They have this 
 
 ## Our clients
 
-Our clients are have ranged from single individuals who are just curious about <i>Snowy Flowers</i> to couples looking for giveaways for their wedding to passionate crafters who want to create wonderful creations as well. 
+Our clients have ranged from single individuals who are just curious about <i>Snowy Flowers</i> to couples looking for giveaways for their wedding to passionate crafters who want to create wonderful creations as well. 
 
 We achieve this by sharing our most beautiful creations to them and make sure they are happy with it.
 
@@ -38,7 +38,7 @@ We have made well over 50 meetups since we started this business and have made w
 
 ## Let's talk
 
-If you are looking for unique gifts and wonderful presents.. if your planning for a wedding this year and you need something new for your giveaways, we would love to help and we would love to hear from you. You can find out about what we can offer **[here](/made-with-love.html)** or you can say hello to us 0917 631 2463
+If you are looking for unique gifts and wonderful presents.. if your planning for a wedding this year and you need something new for your giveaways, we would love to help and we would love to hear from you. You can find out about what we can offer **[here](/made-with-love.html)** or you can say hello to us at 0917 631 2463
 
 We look forward to hearing from you!
 

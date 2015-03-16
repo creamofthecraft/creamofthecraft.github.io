@@ -441,6 +441,9 @@ body > header {
             display: block;
             width: 100%;
             height: auto; }
+            .content article .body .media.pricelist img {
+                width: 95%;
+            }
 
     .content article .body .media.youtube iframe, .content article .body .media.vimeo iframe, .content article .body .media.audio iframe {
         display: block;
