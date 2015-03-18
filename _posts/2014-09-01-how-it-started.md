@@ -6,7 +6,7 @@ type:			post
 navigation: 	false
 
 date:   		2014-09-01
-excerpt: 		The concept of working with a static site generator using the terminal or console <b>might be new to you</b>, but I'll do my very best to guide you through the process.
+excerpt: 		We <i>love</i> discoveries, We <i>love</i> details, we <i>love</i> arts, we <i>love</i> innovation.
 categories:		aboutus
 gradient: 		1
 image: 			header-bear.jpg
@@ -29,7 +29,7 @@ These flowers were very cute, so we thought instead of putting this in a vase, w
 
 From there, were curated a couple of designs and created some of our own designs. 
 
-We love details, we love arts, we love innovation.
+We love discoveries, We love details, we love arts, we love innovation.
 
 ## Facebook
 
