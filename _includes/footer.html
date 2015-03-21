@@ -10,9 +10,11 @@
       
     {% endif %}
     
-    <script src="{{ '/assets/jquery-2.1.1.min.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/viewportchecker.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/scripts.js' | prepend: site.baseurl }}"></script>
+    {% bundle %}
+    - /assets/jquery-2.1.1.min.js
+    - /assets/viewportchecker.js
+    - /assets/scripts.js
+    {% endbundle %}
 
   </body>
 
