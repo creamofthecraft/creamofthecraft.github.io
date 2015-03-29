@@ -27,11 +27,11 @@
     <link rel="alternate" href="{{ '/feed.xml' | prepend: site.baseurl }}" type="application/rss+xml" title="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl }}" />
 
-    {% bundle %}
-    - /assets/normalize.css
-    - /assets/animate.css
-    - /assets/styles.css
-    {% endbundle %}
+    
+    <link rel="stylesheet" href="{{ '/assets/normalize.css' | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ '/assets/animate.css' | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | prepend: site.baseurl }}" />
+
 
     <!--[if lt IE 9]>
       <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -49,24 +49,6 @@
       </script>
     {% endif %}
 
-    <!-- Facebook Conversion Code for Cream Of The Craft visits -->
-<script>(function() {
-  var _fbq = window._fbq || (window._fbq = []);
-  if (!_fbq.loaded) {
-    var fbds = document.createElement('script');
-    fbds.async = true;
-    fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(fbds, s);
-    _fbq.loaded = true;
-  }
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', '6028598840953', {'value':'0.00','currency':'PHP'}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6028598840953&amp;cd[value]=0.00&amp;cd[currency]=PHP&amp;noscript=1" /></noscript>
-
-  {% include fb-custom-audience-pixel.html %}
   
   </head>  
 
