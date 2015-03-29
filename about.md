@@ -36,7 +36,7 @@ We achieve this by sharing our most beautiful creations to them and make sure th
 
 ## Some achievements
 
-Currently, we have over 2,000 followers in facebook and over 1,000 followers in instagram who receive updates each time a new post is published. We have are happy to receive feedbacks and comments from our dear followers each day.
+Currently, we have over 2,000 followers in facebook and over 1,000 followers in instagram who receive updates each time a new post is published. We are happy to receive feedbacks and comments from our dear followers each day.
 
 We have made well over 50 meetups since we started this business and have made wonderful friends along the way -- customers turned clients turned friends.
 
