@@ -67,12 +67,12 @@
           <li><a href="{{ '/' | prepend: site.baseurl }}" title="Home">Home</a></li>
           {% for page in pages %}
             {% if page.title and page.type != 'home' %}
-              <li><a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title }}</a></li>
+              <li><a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title | xml_escape }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
           {% for post in posts %}
             {% if post.title and post.type != 'home' %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
