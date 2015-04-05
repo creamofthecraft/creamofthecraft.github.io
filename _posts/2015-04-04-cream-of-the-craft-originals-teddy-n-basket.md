@@ -24,7 +24,7 @@ facebook: 		"http://facebook.com/enjoycrafting"
 
 It was one of those days when I strolled with my husband, Ian, around Cebu to find inspirations for new designs. 
 
-Would you believe that this basket with a cute bear on it is actually a pen holder? Yes. It is! It was stacked **at the bottom of the shelf** as if nobody ever noticed how cute they are. They looked so lonely there with other random items neglected by anyone who passes by the display.
+Would you believe that this basket with a cute bear on it is actually a **<i>pen holder</i>**? Yes. It is! It was stacked **at the bottom of the shelf** as if nobody ever noticed how cute they are. They looked so lonely there with other random items neglected by anyone who passes by the display.
 
 ###Imaginations sparked the moment I saw it. 
 Can’t wait to go home and put our lovely Snowy Flowers in it.
