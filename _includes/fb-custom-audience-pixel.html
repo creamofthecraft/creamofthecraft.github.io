@@ -8,9 +8,8 @@
     s.parentNode.insertBefore(fbds, s);
     _fbq.loaded = true;
   }
-  _fbq.push(['addPixelId', '729985667100309']);
 })();
 window._fbq = window._fbq || [];
-window._fbq.push(['track', 'PixelInitialized', {}]);
+window._fbq.push(['track', '{{ include.pixelId }}', {'value':'{{ include.pixelValue }}','currency':'PHP'}]);
 </script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=729985667100309&amp;ev=PixelInitialized" /></noscript>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev={{ include.pixelId }}&amp;cd[value]={{ include.pixelValue }}&amp;cd[currency]=PHP&amp;noscript=1" /></noscript>
