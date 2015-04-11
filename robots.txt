@@ -3,4 +3,4 @@ title: robots
 
 ---
 User-agent: *
-Sitemap: {{site.baseurl}}/sitemap.xml
+Sitemap: {{site.url}}/sitemap.xml
