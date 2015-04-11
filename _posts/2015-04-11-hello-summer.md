@@ -6,7 +6,7 @@ type:			post
 navigation: 	false
 
 date:   		2015-04-11
-excerpt: 		Sand and more sand with variety of shells and beads which I have kept from our Nautical themed wedding
+excerpt: 		These bright colored sprinklers with Snowy Flowers are just perfect for this Summer.
 categories:		crafts
 gradient: 		1
 image: 			sand-1200x700.jpg
