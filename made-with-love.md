@@ -47,3 +47,19 @@ twitter: 		"https://twitter.com/creamofthecraft"
 {% include price-list.html file="pl_ed/large-vial-3f.jpg" title="Large Vial" caption="2 and a half inch vial with 3 snowy flowers" price="Retail: Php 99 | Special Price: Php 95 for orders 30pcs and up" %}
 
 
+>Kindly pm us the design you love and the number of items you'd like to have, through our [facebook page][fb].
+
+**Meet-ups** are every Saturday at [Coffee Bean and Tea Leaf Ayala Terraces][cbtl] (4pm - 6pm)
+**Cut-off** is on Thursdays; orders received on Fridays and onwards will be delivered on the next Saturday meet-ups.
+
+We **deliver** within Cebu City, Mandaue City, Lapu-Lapu City.
+We also **Ship nationwide**
+Contact Details [0917-6312463][phone], Luchelle
+
+[fb]: http://facebook.com/creamofthecraft
+[cbtl]: http://goo.gl/XakD7g
+[phone]: tel:+639176312463
+
+
+
+
