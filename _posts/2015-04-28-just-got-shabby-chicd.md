@@ -20,21 +20,22 @@ facebook: 		"http://facebook.com/enjoycrafting"
 
 ---
 
-##Just got <i>Shabby Chic’d</i>
+## Lace and Vintage Look
 
 As unique, interesting and challenging as the wedding-theme, **“Shabby Chic”**, implies, we got overly excited in transforming our [Snowy Flowers][sf] in a vial to a <i>**stunning wedding give-away**</i>.
+
+A **soft lace** was carefully tied around the neck of the vial. Added a touch of pastel colored, peach and mint green, **pearl beads** which were meticulously arranged on top of the cork. This perfect combination gave the vials that <i>**vintage look**</i>.
 
 {% include media-image.html file="header-shabby-chic-796x500.jpg" title="Classic look" caption="The vials look so classic with the lace." %}
 
 {% include media-image.html file="shabby-chic-cork-beads-796x500.jpg" title="Bead work" caption="Look how pretty those beads sit on top of the cork." %}
 
-## Lace and Vintage Look
-A **soft lace** was carefully tied around the neck of the vial. Added a touch of pastel colored, peach and mint green, **pearl beads** which were meticulously arranged on top of the cork. This perfect combination gave the vials that <i>**vintage look**</i>.
+## Hand-sewn
+The tags were **hand-sewn** to the lace and intentionally let them freely hang to have that easy and relax feeling. This is also to make the beautiful Snowy Flowers inside the vials very visible.
+
 
 {% include media-image.html file="shabby-chic-visible-796x500.jpg" title="Classic look" caption="Look how visible the Snowy Flowers are. One would easily notice its beauty." %}
 
-## Hand-sewn
-The tags were **hand-sewn** to the lace and intentionally let them freely hang to have that easy and relax feeling. This is also to make the beautiful Snowy Flowers inside the vials very visible.
 
 {% include media-image.html file="shabby-chic-hand-sewn-796x500.jpg" title="Hand-sewn" caption="Tags were hand-sewn." %}
 
