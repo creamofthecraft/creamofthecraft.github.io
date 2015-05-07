@@ -40,11 +40,11 @@ twitter: 		"https://twitter.com/creamofthecraft"
 {% include price-list.html file="edited/light-bulb.jpg" title="Glass Bulb" caption="comes with 15 pieces of snowy flowers with FREE spray" price="Php 649" %}
 
 ## Flowers in Vials with Cork
-{% include price-list.html file="pl_ed/beauty-and-beast-vial.jpg" title="Beauty & the Beast magical flower" caption="2 inch vial with 1 snowy flower" price="Retail: Php 58 | Special Price: Php 55 for orders 30pcs and up" %}
+{% include price-list.html file="pl_ed/beauty-and-beast-vial.jpg" title="Beauty & the Beast magical flower" caption="2 inch vial with 1 snowy flower" price="Retail: Php 58 | Special Price: Php 55 for orders 100pcs and up" %}
 
-{% include price-list.html file="pl_ed/medium-vials-3f.jpg" title="Medium Vial" caption="2 inch vial with 3 snowy flowers" price="Retail: Php 85 | Special Price: Php 80 for orders 30pcs and up" %}
+{% include price-list.html file="pl_ed/medium-vials-3f.jpg" title="Medium Vial" caption="2 inch vial with 3 snowy flowers" price="Retail: Php 85 | Special Price: Php 80 for orders 100pcs and up" %}
 
-{% include price-list.html file="pl_ed/large-vial-3f.jpg" title="Large Vial" caption="2 and a half inch vial with 3 snowy flowers" price="Retail: Php 99 | Special Price: Php 95 for orders 30pcs and up" %}
+{% include price-list.html file="pl_ed/large-vial-3f.jpg" title="Large Vial" caption="2 and a half inch vial with 3 snowy flowers" price="Retail: Php 99 | Special Price: Php 95 for orders 100pcs and up" %}
 
 
 Kindly pm us the design you love and the number of items you'd like to have, through our [facebook page][fb].
