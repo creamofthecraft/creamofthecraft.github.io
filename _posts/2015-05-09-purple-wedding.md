@@ -42,12 +42,13 @@ Snowy Flowers in a candy jar look pretty already on its own. Embellishing it wit
 
 {% include media-image.html file="all-set-796x500.jpeg" title="All Set" caption="Complete set of Snowy Flowers in a Candy Jar." %}
 
-{% include media-image.html file="flowers-in-jar-796x500.jpeg" title="Flowers in a Jar" caption="What a surprise?! Who would expect finding real flowers inside a candy jar? Guests will sure be delighted. " %}
+{% include media-image.html file="flowers-in-jar-796x500.jpeg" title="Flowers in a Jar" caption="What a surprise?! Who would expect finding real flowers inside a candy jar? Guests will sure be delighted." %}
 
 ## Purple and White
 
-Purple glass beads are complemented with white pearl beads. These are strung together and placed around the mouth of the jar just like a necklace. A handmade flower made out of an organza ribbon was added to the side. The flower was made of two organza ribbons with different colors and width. 
-{% include media-image.html file="white-balance-796x500.jpeg" title="White Balance" caption="White neutralizes the dark shade of purple. Simply lovely!" %}
+Purple glass beads are complemented with white pearl beads. These are strung together and placed around the mouth of the jar just like a necklace. A handmade flower made out of an organza ribbon was added to the side. The flower was made of two organza ribbons with different colors and width.
+
+{% include media-image.html file="white-balance-796x500.jpeg" title="White Balance" caption="White neutralizes the dark shade of purple. Simply lovely." %}
 
 {% include media-image.html file="personalized-796x500.jpeg" title="Personalized" caption="In its personalized bags. " %}
 
