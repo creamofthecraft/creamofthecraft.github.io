@@ -56,9 +56,8 @@ Purple glass beads are complemented with white pearl beads. These are strung tog
 
 Holding two organza ribbons with different widths is quite tricky. But it’s certainly fun! Make one along with this video.
 
-{% comment %}
- include media-youtube.html file="https://www.youtube.com/watch?v=PeFJlk8eOhQ" title="How it was done" caption="Here’s a time lapse on how to make the organza flower." link="http://jackjohnsonmusic.com" 
-{% endcomment %}
+{% include media-youtube.html file="https://www.youtube.com/watch?v=xHnrGNuWKxg" title="How it was done" caption="Here’s a time lapse on how to make the organza flower." link="http://creamofthecraft.co"  %}
+
 ***Enjoy Crafting!***
 
 <br/>
