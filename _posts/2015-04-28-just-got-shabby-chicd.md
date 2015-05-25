@@ -4,6 +4,8 @@ layout:			default
 title:  		"Just got Shabby Chic’d"
 type:			post
 navigation: 	false
+custom_audience:
+  pixelId:      729985667100309
 
 date:   		2015-04-28
 excerpt: 		As unique, interesting and challenging as the wedding-theme, “Shabby Chic”, implies, we got overly excited in transforming our Snowy Flowers in a vial to a stunning wedding give-away.

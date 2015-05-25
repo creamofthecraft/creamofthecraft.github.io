@@ -5,6 +5,8 @@ title:  		"Bejeweled Teddy Bears | Embellished Candy Jars"
 type:			post
 navigation: 	false
 publish:        false
+custom_audience:
+  pixelId:      729985667100309
 
 date:   		2015-05-09
 excerpt: 		An explosion of creativity, resourcefulness and innovation is all we need to come up with a design that’s adorable and which perfectly suits the wedding theme.. These are strung together and placed around like a necklace.
