@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	5
 product:
-  price: 649
+  price: 599
   title: Teddy 'n a Basket
   short_desc: Say Hello to Teddy! This basket contains 20 snowy flowers, perfect gift for your special someone.
   product_item_img: temp/products-teddy-n-basket.jpg

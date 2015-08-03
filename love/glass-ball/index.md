@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	5
 product:
-  price: 599
+  price: 699
   title: Glass Ball
   short_desc: Elegant Glass Ball contains 30 snowy flowers. The beauty of the flowers radiate in all corners.
   product_item_img: temp/products-glass-ball.jpg #270x270

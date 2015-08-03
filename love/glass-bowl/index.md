@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	5
 product:
-  price: 849
+  price: 599
   title: Glass Bowl
   short_desc: comes with 20 pieces of snowy flowers with FREE spray.
   product_item_img: temp/products-glass-bowl.jpg

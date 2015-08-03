@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	3
 product:
-  price: 849
+  price: 699
   title: Glass Stand
   short_desc: comes with 20 pieces of snowy flowers with FREE spray.
   product_item_img: temp/products-glass-stand.jpg

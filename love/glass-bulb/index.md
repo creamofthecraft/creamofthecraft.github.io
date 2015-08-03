@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	4
 product:
-  price: 649
+  price: 599
   title: Glass Bulb
   short_desc: comes with 18 pieces of snowy flowers. Hang it or make it stand, it looks great.
   product_item_img: temp/products-glass-bulb.jpg
