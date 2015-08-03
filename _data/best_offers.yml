@@ -1,0 +1,29 @@
+- image: temp/best-offer-diy.jpg
+  title: "DIY Package"
+  intro: "Craft Lovers who wanna try arranging snowy flowers"
+  short_description: "100 pieces snowy flowers + FREE 5 pieces + FREE moss + FREE floral foam"
+  price: 999
+
+- image: temp/best-offer-reseller.jpg
+  title: "Reseller Package"
+  intro: "Introduce Snowy flowers in your own communities. Be a reseller with this starter package."
+  short_description: "500 pieces snowy flowers + FREE 25 pieces + FREE moss + FREE floral foam"
+  price: "3,499"
+
+- image: temp/best-offer-reseller2.jpg
+  title: "Reseller Package 2"
+  intro: "Snowy Flowers for everyone who likes to be a reseller in their own location"
+  short_description: "1000 pieces snowy flowers + FREE 50 pieces + FREE moss + FREE floral foam"
+  price: "4,999"
+
+- image: temp/best-offer-sub.jpg
+  title: "Subdistributor Package"
+  intro: "Subdistributorship for those who want to start their own flower shop"
+  short_description: "3000 pieces snowy flowers + FREE 150 pieces + FREE moss + FREE floral foam"
+  price: "11,999"
+
+- image: temp/best-offer-single.jpg
+  title: "Retail"
+  intro: "Try a flower and and see the magic"
+  short_description: "we are also offerring snowy flowers per piece"
+  price: 15 per piece

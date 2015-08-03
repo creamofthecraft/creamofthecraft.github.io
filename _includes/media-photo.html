@@ -1,0 +1,20 @@
+<div class="gallery">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              {% for image in include.images %}
+              <div class="swiper-slide">
+                <img src="{{ site.cdn }}/{{ image }}" alt="">
+              </div>
+              {% endfor %}
+            </div>
+            <ul class="flex-direction-nav">
+              <li>
+                <a class="flex-prev" href="#"></a>
+              </li>
+              <li>
+                <a class="flex-next" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="pagination"></div>
+        </div>

@@ -1,0 +1,11 @@
+- name: Cute Flower Arrangments
+  css_icon: item-1
+  description: "We have our line of Snowy Flower arrangements. Arranged in glass containers, wire twisted baskets and cute vials."
+
+- name: Ship and Deliver
+  css_icon: item-2
+  description: "We deliver within Cebu and we Ship nationwide."
+
+- name: Personlized Giveaway 
+  css_icon: item-3
+  description: "Using our creative resources, we conceptualize a unique design for your event. We make them ( with love ) and ship it to you."

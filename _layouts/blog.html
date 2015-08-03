@@ -1,0 +1,42 @@
+---
+layout: standard
+---
+<div id="page">
+  <div class="main-image" style="background-image: url({{ site.cdn }}/{{ page.bg_top_product_detail }});"></div>
+  <section class="blog-detail-content container">
+    <div class="wrap">
+      <div class="inner">
+        <div class="page-title">
+          <time datetime="{{ page.date | date: 'YYYY-MM-dd'}}">{{ page.date | date: '%B %d, %Y'}}</time>
+          <h1>{{ page.title }}</h1>
+        </div>
+
+        <div class="article">
+          {{content}}
+        </div>
+
+        <div class="share">
+          <div class="inner">
+            <strong>Share this</strong>
+            <ul>
+              <li class="ico facebook"><a href="https://www.facebook.com/" target="_blank" class="rounded-ico"></a></li>
+              <li class="ico twitter"><a href="https://twitter.com/" target="_blank" class="rounded-ico"></a></li>
+              <li class="ico google-plus"><a href="https://plus.google.com/" target="_blank" class="rounded-ico"></a></li>
+              <li class="ico pinterest"><a href="https://www.pinterest.com/" target="_blank" class="rounded-ico"></a></li>
+              <li class="ico linkedin"><a href="https://www.linkedin.com/" target="_blank" class="rounded-ico"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="comments-blog" class="comments">
+          <div class="comments-title">
+            <h2>Your Turn, What can you say?</h2>
+            <div class="comments-count">2 comments</div>
+          </div>
+          <div class="comment-form animete-form">
+            <div class="fb-comments" data-href="{{ site.baseurl }}{{ page.url }}" data-numposts="5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

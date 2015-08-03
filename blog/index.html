@@ -1,0 +1,83 @@
+---
+layout: standard
+---
+<div id="page">
+  <div class="main-image" style="background-image: url({{site.cdn}}/temp/blog-header-bg.jpg);"></div>
+  <section class="blog-list-content container">
+    <div class="wrap">
+      <div class="inner">
+        <div class="page-title">
+          <h1>Our <b>Thoughts</b></h1>
+            <div class="drop">
+             <label for="text-label">Filter by:</label>       
+                <input type="text" value="All" id="text-label"/>
+                  <a href="#" class="drop-list"></a>
+                    <span>
+                        <a href="#" class="filter" data-filter="all">All</a>
+                        <a href="#" class="filter" data-filter=".date">Date</a>
+                        <a href="#" class="filter" data-filter=".name">Name</a>
+                        <a href="#" class="filter" data-filter=".category">Category</a>
+                    </span>
+             </div>
+<!--
+          <select class="SelectBox">
+              <option selected="selected">All</option>
+              <option value="date">Date</option>
+              <option value="name">Name</option>
+              <option value="category">Category</option>
+          </select>
+-->
+          
+        </div>
+        <div class="posts container-mix">
+          {% for post in paginator.posts %}
+          <article class="mix date">
+            <figure class="circle-thumb">
+            <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">
+              <img src="{{ site.cdn }}/{{ post.preview_image }}" alt="">
+              <span class="blog-img-mask"></span>
+            </a>
+            </figure>
+            <div class="meta">
+              <time datetime="{{ post.date | date: 'YYYY-MM-dd'}}">{{ post.date | date: '%B %d, %y'}}</time>
+              <a href="blog_detail.html#comments-blog" class="comments">2</a>
+              <a href="blog.html" class="category">{{ post.categories }}</a>
+            </div>
+            <h2 class="title post-title"><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></h2>
+            <div class="description">
+              <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            </div>
+          </article>
+          {% endfor %}
+
+          {% if paginator.total_pages > 1 %}
+          <nav class="page-navigation" role="navigation">
+             {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous-page">previous page</a>
+            {% endif %}
+
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next-page">next page</a>
+            {% endif %}
+
+
+            <ul class="pages">
+              {% for page in (1..paginator.total_pages) %}
+
+                {% if page == paginator.page %}
+                <li class="active"><a>{{ page }}</a></li>
+                {% elsif page == 1 %}
+                <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+                {% else %}
+                <li> <a href="{{ site.baseurl | prepend: site.url }}/blog/page{{ page}}/">{{ page }}</a></li>
+                {% endif %}
+
+              {% endfor %}
+            </ul>
+          </nav>
+          {% endif %}
+
+      </div>
+    </div>
+  </section>
+</div>

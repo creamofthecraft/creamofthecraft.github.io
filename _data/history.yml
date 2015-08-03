@@ -1,0 +1,29 @@
+- year: 2015
+  event:
+  - date: 07/07/2015
+    name: Best Customized Giveaways Provider
+    description: "Q Asia Magazine. 10th National Product Quality Excellence Awards 2014-2015"
+    preview_image: temp/history-qbp.jpg
+  - date: 06/06/2015
+    name: Tanglaw ng Inspirasyon Award
+    description: "Quality Brands Philippines - Awarded Tanglaw ng Inspirasyon - Giveaways category"
+    preview_image: temp/history-qasia.jpg
+  - date: 05/05/2015
+    name: Mother's Day Exhibit
+    description: "Parkmall"
+    preview_image: temp/history-moms-day.jpg
+  - date: 11/02/2015
+    name: Valentine's Day Exhibit
+    description: "Parkmall #Gugma Fair"
+    preview_image: temp/history-valentines.jpg
+
+- year: 2014
+  event:
+  - date: 15/12/2014
+    name: Christmas Promo
+    description: "Online"
+    preview_image: temp/history-xmas2014.jpg
+  - date: 30/10/2014
+    name: Product Launch
+    description: "Online"
+    preview_image: temp/history-fb-start.jpg

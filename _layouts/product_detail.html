@@ -1,0 +1,74 @@
+---
+layout: standard
+---
+
+<div class="main-image detailed" style="background-image: url({{ site.cdn}}/{{ page.bg_top_product_detail }});"></div>
+
+<div id="page">
+  <section class="product-detail-content container container1200">
+    <div class="wrap">
+        <div class="page-title">
+          <strong class="price">&#8369;{{ page.product.price }}</strong>
+          <h1>{{ page.product.title }}</h1>
+        </div>
+        <article>
+          {{ content }}
+        </article>
+        <div class="share">
+          <div class="inner">
+            <strong>Share this</strong>
+            <ul>
+              <li class="ico facebook"><a href="#" class="rounded-ico"></a></li>
+              <li class="ico twitter"><a href="#" class="rounded-ico"></a></li>
+              <li class="ico google-plus"><a href="#" class="rounded-ico"></a></li>
+              <li class="ico pinterest"><a href="#" class="rounded-ico"></a></li>
+              <li class="ico linkedin"><a href="#" class="rounded-ico"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="related-products scale-text">
+          <div class="section-title">
+            <h2>Related <b>Products</b></h2>
+          </div>
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              {% for product in site.pages %}
+              {% if product.is_product == true and product.product.category == page.product.category %}
+              {% unless product.url == page.url %}
+
+              {%if site.prod.prod_link %}
+                {% capture link %}
+                  {{ site.baseurl }}{{ featured.url | remove: '/index.html' }}
+                {% endcapture %}
+              {% else %}
+                {% assign link = '#' %}
+              {% endif %}
+
+              <div class="swiper-slide">
+                  <a href="{{ link }}">
+                    <img src="{{ site.cdn }}/{{ product.product.product_item_img }}" alt="">
+                  </a>
+                  <h4 class="name"><a href="{{ link }}">{{ product.product.title }}</a></h4>
+                  <div class="description">{{ product.product.short_desc }}</div>
+                  <strong class="price">&#8369;{{ product.product.price }}</strong>
+              </div>
+              {% endunless %}
+              {% endif %}
+              {% endfor %}
+
+            </div>
+
+            <ul class="flex-direction-nav">
+              <li>
+                <a class="flex-prev" href="#">Previous</a>
+              </li>
+              <li>
+                <a class="flex-next" href="#">Next</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+</div>

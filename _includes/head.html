@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta property="fb:admins" content="630695944" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="{{ site.description | truncate: 155 }}" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{{ site.description | truncate: 300 }}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:image" content="{{ site.cdn }}/{{ page.bg_top_product_detail }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:description" content="{{ site.description | truncate: 200 }}" />
+    <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | replace: 'index.html', ''}}" />
+    <meta name="twitter:image" content="{{ site.cdn }}/{{ page.bg_top_product_detail }}" />
+    <meta name="twitter:site" content="{{ site.twitter | prepend: '@' }}" />
+
+    <link rel="alternate" href="{{ '/feed.xml' | prepend: site.baseurl }}" type="application/rss+xml" title="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl }}" />
+
+    <link rel="shortcut icon" href="{{ site.cdn }}/favicon.ico" type="image/png">
+    <link href="{{ site.cdn }}/fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.cdn }}/ugcss/s.css" rel="stylesheet" type="text/css">
+    <!-- {{ page.type }} -->
+    {% if page.type == 'post' %}
+     <link rel="stylesheet" href="{{ '/assets/animate.css' | prepend: site.baseurl }}" />
+     <link rel="stylesheet" href="{{ '/assets/media-animation.css' | prepend: site.baseurl }}" />
+    {% endif %}
+
+
+    <!--[if lt IE 9]>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+
+
+  
+</head>

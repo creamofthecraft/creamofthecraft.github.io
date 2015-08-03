@@ -1,0 +1,57 @@
+---
+layout: standard
+---
+
+<div id="page">
+  <div class="main-image" style="background-image: url({{ site.baseurl | prepend: site.url }}/temp/home-banner-2.jpg );"></div>
+  <section class="contact-content">
+    <div class="container">
+      <div class="wrap">
+        <div class="inner">
+          <div class="page-title">
+            <h1>Contact <b>Us</b></h1>
+          </div>
+          <div class="contact-info">
+            <div class="item contact-address">
+              <div class="rounded-ico larger ico-contact"></div>
+              <div class="information">
+                <p>Hernan Cortes Street, Brgy. Casuntingan</p>
+                <p>Mandaue City, CEBU</p>
+                <p>Philippines, 6014</p>
+              </div>
+            </div>
+            <div class="item contact-phone">
+              <div class="rounded-ico larger ico-contact"></div>
+              <div class="information">
+                <p>
+                  <a href="tel:+{{ site.phone }}">0917.631.2463</a>
+                </p>
+                <p>
+                  <a href="tel:{{ site.landline }}">{{ site.landline }}</a>
+                </p>
+              </div>
+            </div>
+            <div class="item contact-email">
+              <div class="rounded-ico larger ico-contact"></div>
+              <div class="information">
+                <p>
+                  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="wrap-contact-form scale-text">
+            <div class="section-title">
+              <h2>Have a <b>Questions?</b></h2>
+              <div class="description">We understand this product is new. It's a new and unique concept. But don't worry, we got you covered. We are encouraging you to send as your questions. You can freely talk to us via our <a href="http://fb.me/{{ site.facebook }}" target="_blank"/>facebook page</a>. Or maybe, you can send us a simple hello. :) </div>
+            </div>
+            <div class="contact-form scale-text" style="text-align: center">
+              {% include fb-page-plugin.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

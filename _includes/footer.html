@@ -1,20 +1,14 @@
-    {% if site.copyright or site.email %}
-
-      <footer data-animation="fadeInUp">
-        <div class="copyright">
-          {% if site.copyright %}<b>{{ site.copyright }}</b> All Rights Reserved.{% endif %}
-        	{% if site.email %}<a href="mailto:{{ site.email }}" title="Send E-Mail">Contact</a>{% endif %}
-        	<a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="Subscribe to Feed">RSS</a>
-        </div>
-      </footer>
-      
-    {% endif %}
-    
-    <script src="{{ '/assets/jquery-2.1.1.min.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/viewportchecker.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/scripts.js' | prepend: site.baseurl }}"></script>
-
-
-  </body>
-
-</html>
+<footer id="footer">
+  <div class="container">
+    <div class="contact-phone">Call Us Today.: <a href="tel:{{ site.phone }}"><strong>0917. 631. 2463</strong></a></div>
+    <nav class="social-links">
+      <strong>Follow us</strong>
+      <ul>
+        <li class="large ico facebook"><a href="https://www.facebook.com/{{ site.facebook }}" class="rounded-ico large" target="_blank"></a></li>
+        <li class="large ico instagram"><a href="https://www.instagram.com/{{ site.instagram }}" class="rounded-ico large" target="_blank"></a></li>
+        <li class="large ico email"><a href="mailto:{{ site.email }}" class="rounded-ico large" target="_blank"></a></li>
+      </ul>
+    </nav>
+    <div class="copyright">&#169; Cream Of The Craft. All rights reserved.</div>
+  </div>
+</footer>

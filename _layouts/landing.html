@@ -1,13 +1,16 @@
+---
+layout: main
+---
 <header id="header" class="hdTwo">
   <div class="container">
-	<nav class="social" id="headerShareLinksHover">
+  <nav class="social" id="headerShareLinksHover">
       <a href="#" class="share-link"></a>
       <ul>
         <li class="facebook" style="top:-65px;" data-top="-65px">
           <a href="https://facebook.com/{{ site.facebook }}" target="_blank"></a>
         </li>
         <li class="instagram" style="top:-130px;" data-top="-130px">
-          <a href="https://instagr.am/{{ site.instagram }}" target="_blank"></a>
+          <a href="http://instagr.am/{{ site.instagram }}" target="_blank"></a>
         </li>
         <li class="email" style="top:-195px;" data-top="-195px">
           <a href="mailto:{{ site.email }}" target="_blank"></a>
@@ -25,19 +28,19 @@
       <nav class="main-nav">
         <ul class="left">
           <li><a {% if page.url == '/index.html' %}class="active"{% endif %} href="{{ site.baseurl }}/index.html">Home</a></li>
-          <li><a {% if page.url == '/about.html' %}class="active"{% endif %} href="{{ site.baseurl }}/about.html">About</a></li>
+          <li><a {% if page.url contains '/about/' %}class="active"{% endif %} href="{{ site.baseurl }}/about">About</a></li>
           <li><a {% if page.url == '/made-with-love.html' %}class="active"{% endif %} href="{{ site.baseurl }}/made-with-love.html">Products</a></li>
         </ul>
         <div class="wrap-logo">
-          <a href="index.html" class="logo" title="Invisio">
+          <a href="{{ site.baseurl }}" class="logo" title="Cream of The Craft">
             <h1>Cream Of The</h1>
             <strong>Craft</strong>
           </a>
         </div>
         <ul class="right">
-          <li><a {% if page.url == '/originals.html' %}class="active"{% endif %} href="{{ site.baseurl }}/services.html">Originals</a></li>
-          <li><a {% if page.url == '/blog.html' %}class="active"{% endif %} href="{{ site.baseurl }}/blog_archive.html">Blog</a></li>
-          <li><a {% if page.url == '/contact_us.html' %}class="active"{% endif %} href="{{ site.baseurl }}/contact_us.html">Contact Us</a></li>
+          <li><a {% if page.url contains '/services/' %}class="active"{% endif %} href="{{ site.baseurl }}/services">Services</a></li>
+          <li><a {% if page.url contains '/blog.html' %}class="active"{% endif %} href="{{ site.baseurl }}/blog/">Blog</a></li>
+          <li><a {% if page.url contains '/hello/' %}class="active"{% endif %} href="{{ site.baseurl }}/hello">Contact Us</a></li>
         </ul>
       </nav>
       <div class="search">
@@ -52,3 +55,13 @@
     </div>
   </div>  
 </header>
+
+{{ content }}
+
+{% include footer.html %}
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery.circliful.min.js"></script>
+<script src="js/main.js"></script>

@@ -1,0 +1,127 @@
+---
+layout: standard
+---
+<div id="page">
+  <div class="main-image" style="background-image: url({{ site.cdn }}/{{ page.bg_top_product_detail }});"></div>
+  <section class="about-us-content container">
+  <div class="wrap">
+    <div class="inner">
+      <div class="page-title">
+        <h1>About <b>{{ page.about_who }}</b></h1>
+        <div class="description">{{ page.about_us_description }} </div>
+      </div>
+
+      {% include media-photo.html images=page.scroll_images %}
+
+      <article class="article">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</section>
+  <!-- -->
+  {% if page.has_history == true %}
+  <section class="our-history">
+  <div class="wrap container">
+    <div class="inner">
+        <div class="page-title white">
+          <h1>Our Story</h1>
+        </div>
+        <div class="events loaded-content">
+
+        {% for hist in site.data.history %}
+
+          <div class="ico_year_shape_history"><span>{{ hist.year }}</span></div>
+          {% for event in hist.event %}
+              {% assign odd_even = forloop.index | modulo: 2 %}
+              <article class="{% if odd_even == 0 %}left-item{% else %}right-item{% endif %} scale-text">
+                <div class="ico_date_shape_history"><span>{{ event.date | date: '%d' }}<br>{{ event.date | date: '%B' | truncate: 6 | remove: '...'}}</span></div>
+                <div class="img-block">
+                  <figure>
+                    <img src="{{ site.cdn }}/{{ event.preview_image }}" class="imgBorder" alt="">
+                  </figure>
+                </div>
+            <div class="text-block">
+                    <h2 class="title post-title">{{ event.name }}</h2>
+                    <div class="description">
+                      <p>{{ event.description }}</p>
+                    </div>
+                </div>
+              </article>
+        {% endfor %}
+        {% endfor %}
+
+        </div>
+        <a href="#" id="articleLoad" class="show-more-items ico arrow-down large"><span class="rounded-ico large"></span></a>
+    </div>
+  </div>
+  </section>
+
+
+<section class="meet-our-team scale-text">
+  <div class="container">
+    <div class="section-title">
+      <h2>Meet Our <b>Passionate Team</b></h2>
+      <div class="description">Behind every detail is a craftswoman.</div>
+    </div>
+  </div>
+  <div class="container container1200">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for crafter in site.data.crafters %}
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="{{ site.cdn }}/{{ crafter.photo }}" alt="">
+          </a>
+          <h4 class="name"><a href="#">{{ crafter.name }}</a></h4>
+          <strong class="post">{{ crafter.role }}</strong>
+          <div class="description">{{ crafter.description }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <ul class="flex-direction-nav">
+        <li>
+          <a class="flex-prev" href="#">Previous</a>
+        </li>
+        <li>
+          <a class="flex-next" href="#">Next</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% if site.prod.testimonial %}
+<section class="testimonials scale-text">
+  <div class="bg bg-bg" style="background-image: url({{ site.cdn }}/img/bg_about_us_testimonials.jpg);"></div>
+
+  <div class="container">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for testimonial in site.data.testimonials %}
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="content">
+              <div class="inner">
+                <blockquote>{{ testimonial.detail }}</blockquote>
+                <h4 class="author">{{ testimonial.author }}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+      <ul class="flex-direction-nav">
+        <li>
+          <a class="flex-prev" href="#"></a>
+        </li>
+        <li>
+          <a class="flex-next" href="#"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endif %}
+</div>

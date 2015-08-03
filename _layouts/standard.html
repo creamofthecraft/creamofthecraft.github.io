@@ -1,0 +1,88 @@
+---
+layout: main
+---
+<header id="header">
+  <div class="container">
+	<nav class="social" id="headerShareLinksHover">
+      <a href="#" class="share-link"></a>
+      <ul>
+        <li class="facebook" style="top:-65px;" data-top="-65px">
+          <a href="https://facebook.com/{{ site.facebook }}" target="_blank"></a>
+        </li>
+        <li class="instagram" style="top:-130px;" data-top="-130px">
+          <a href="https://instagr.am/{{ site.instagram }}" target="_blank"></a>
+        </li>
+        <li class="email" style="top:-195px;" data-top="-195px">
+          <a href="mailto:{{ site.email }}" target="_blank"></a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="#" class="show-nav"></a>
+    <a href="{{ site.baseurl }}" class="logo mobile">
+      <h1>Cream Of The</h1>
+      <strong>Craft</strong>
+    </a>
+    <div class="hgroup">
+      <a href="#" class="close-nav"></a>
+      <nav class="main-nav">
+        <ul class="left">
+          <li><a {% if page.url == '/index.html' %}class="active"{% endif %} href="{{ site.baseurl }}/index.html">Home</a></li>
+          <li><a {% if page.url contains '/about/'%}class="active"{% endif %} href="{{ site.baseurl }}/about">About</a></li>
+          <li><a {% if page.url == '/made-with-love.html' or page.url contains '/love/' %}class="active"{% endif %} href="{{ site.baseurl }}/made-with-love.html">Products</a></li>
+        </ul>
+        <div class="wrap-logo">
+          <a href="{{ site.baseurl }}" class="logo" title="Cream of The Craft">
+            <h1>Cream Of The</h1>
+            <strong>Craft</strong>
+          </a>
+        </div>
+        <ul class="right">
+          <li><a {% if page.url contains '/services/' %}class="active"{% endif %} href="{{ site.baseurl }}/services">Services</a></li>
+          <li><a {% if page.url contains '/blog/' or page.url contains'/projects' or page.url contains'/originals/' %}class="active"{% endif %} href="{{ site.baseurl }}/blog/">Blog</a></li>
+          <li><a {% if page.url contains '/hello/' %}class="active"{% endif %} href="{{ site.baseurl }}/hello">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <a href="#" class="search-link"></a>
+        <div class="search-form">
+          <form action="#">
+            <input type="text" value="Keyword" placeholder="">
+            <input type="submit" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>  
+</header>
+{{ content }}
+{% include footer.html %}
+<script src="{{ site.cdn }}/js/jquery-2.1.3.min.js"></script>
+<script src="{{ site.cdn }}/js/idangerous.swiper.min.js"></script>
+<script src="{{ site.cdn }}/js/jquery.circliful.min.js"></script>
+<script src="{{ site.cdn }}/js/jquery.mixitup.min.js"></script>
+<script src="{{ site.cdn }}/js/main.js"></script>
+
+{% if page.type == 'post' %}
+<script src="{{ site.cdn }}/assets/viewportchecker.js"></script>
+<script>
+$(document).ready( function(){
+  // Reveal Animation
+  var animatedElements = $('[data-animation]');
+
+  $.each(animatedElements, function(index, value) {
+
+    var $this = $(this),
+      animation = $this.data('animation');
+
+    $this.addClass('hidden_an').viewportChecker({
+      classToAdd: 'visible animated ' + animation,
+      offset: 100
+    });
+
+  });
+
+});
+
+</script>
+{% endif %}

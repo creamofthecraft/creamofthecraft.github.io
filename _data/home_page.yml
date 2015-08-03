@@ -1,0 +1,25 @@
+header:
+  - bg_image : temp/header-bear.jpg
+    short_desc: Everything we do
+    punch_line: We make with Love
+    cta: learn more about us
+    link: /services
+  - bg_image : temp/home-banner-3.jpg
+    short_desc: 
+    punch_line: Think. Craft. Inspire.
+    cta: learn more about us
+    link: /about
+    text_contrast: 
+  - bg_image : temp/home-banner-2.jpg
+    short_desc: All is well at the end
+    punch_line: If it is not well then it is not the end
+    cta: learn more about us
+    link: /about/snowy-flower
+    text_contrast: text-contrast
+
+services:
+  description: "We believe in the beauty of handmade crafts. We believe that there is creativity in each one of us. We love details and everything we do is made with love. And what better way to express our finest crafts than making them with <a href='/about/snowy-flower'>Snowy Flowers</a>."
+
+products:
+   url: /made-with-love.html  
+

@@ -1,0 +1,16 @@
+- name: Luchelle
+  role: CEO/Lead Crafter
+  description: Luchelle is our passionate Crafter.
+  photo: temp/ceo.jpg
+- name: Lina
+  role: Crafter
+  description: Lina produces all the crafts in volume.
+  photo: temp/crafter1.jpg
+- name: Ian
+  role: CTO/CMO
+  description: Ian takes care of the marketing and the technology to keep the word out.
+  photo: temp/cmo.jpg
+- name: Jesus
+  role: God
+  description: "Master Orchestrator, We seek inspiration from him, the original Craftsman"
+  photo: temp/jesus.jpg

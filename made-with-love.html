@@ -1,0 +1,53 @@
+---
+layout: standard
+---
+<div id="page">
+  <div class="main-image" style="background-image: url({{site.cdn}}/temp/products-header-bg.jpg);"></div>
+  <section class="products-content container">
+    <div class="page-title">
+      <h1>Our <b>Creations</b></h1>
+          <div class="drop">
+               <label for="text-label">Filter by:</label>       
+                      <input type="text" value="All" id="text-label"/>
+                      <a href="#" class="drop-list"></a>
+                        <span>
+                            <a href="#" class="filter" data-filter="all">All</a>
+                            <a href="#" class="filter" data-filter=".glass">Garden in a Jar</a>
+                            <a href="#" class="filter" data-filter=".basket">Basket of Garden</a>
+                            <a href="#" class="filter" data-filter=".vials">Vials</a>
+                        </span>
+          </div>
+    </div>
+    <div class="content product-animation">
+      <ul class="items loaded-content container-mix">
+
+        {% assign pages_product_sorted_by_stars = site.pages | where: 'categories', 'product' | sort: 'star' | reverse %}
+              
+        {% for product in pages_product_sorted_by_stars %}
+
+        {%if site.prod.prod_link %}
+          {% capture link %}
+            {{ site.baseurl }}{{ featured.url | remove: '/index.html' }}
+          {% endcapture %}
+        {% else %}
+          {% assign link = '' %}
+        {% endif %}
+
+        <li class="product mix {{ product.product.category }} scale-text">
+          <div class="">
+          <a href="{{ link }}">
+            <img src="{{ site.cdn }}/{{ product.product.product_item_img }}" alt="">
+          </a>
+          <h4 class="name"><a href="{{ link }}">{{ product.product.title }}</a></h4>
+          <div class="description">{{ product.product.short_desc }}</div>
+          <strong class="price">&#8369;{{ product.product.price }}</strong>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="clr"></div>
+      <a href="#" id="itemLoad" class="show-more-items ico arrow-down large">
+      <span class="rounded-ico large"></span></a>
+    </div>
+  </section>
+</div>

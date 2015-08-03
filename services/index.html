@@ -1,0 +1,91 @@
+---
+layout: standard
+---
+<div id="page">
+  <div class="main-image" style="background-image: url({{site.cdn}}/temp/services-header-bg.jpg);"></div>
+  <section class="services-content">
+    <div class="container">
+      <div class="page-title">
+        <h1>Our <b>Passion</b></h1>
+        <div class="description">We offer the Best of Cream Of The Craft. Like our finest work</div>
+      </div>
+      <div class="services">
+        <ul class="items animation-service">
+          {% for service in site.data.services %}
+            {% if forloop.index | modulo: 6 == 0 %}
+               {% assign time = 'time-500' %}
+            {% elsif forloop.index | modulo: 5 == 0 %}
+               {% assign time = 'time-400' %}
+            {% elsif forloop.index | modulo: 4 == 0 %}
+               {% assign time = 'time-300' %}
+            {% endif %}
+          <li class="{{ service.css_icon }} {% if time %} scale-text {% endif %}">
+            {% if time %}
+            <div class="translate {{ time }}">
+            {% endif %}
+            <a class="image"></a>
+            <h3><a>{{ service.name }}</a></h3>
+            <div class="description">{{ service.description }}</div>
+            {% if time %}
+            </div>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>      
+      </div>
+    </div>
+    <div class="best-offers">
+      <div class="container">
+        <div class="section-title white">
+          <h2>Our Best Offers</h2>
+          <div class="description">Here are the best things you can get from us.</div>
+        </div>
+      </div>
+      <div class="container container1200">
+        <div class="slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper animation-service">
+              
+              {% for best_offer in site.data.best_offers %}
+              {% if forloop.index | modulo: 4 == 0 %}
+               {% assign time = 'time-500' %}
+              {% elsif forloop.index | modulo: 3 == 0 %}
+                 {% assign time = 'time-400' %}
+              {% elsif forloop.index | modulo: 2 == 0 %}
+                 {% assign time = 'time-300' %}
+              {% elsif forloop.index | modulo: 1 == 0 %}
+                 {% assign time = 'time-200' %}
+              {% endif %}
+              <div class="swiper-slide scale-text">
+                <div class="item translate {{ time }}">
+                  <a href="product_detail.html">
+                    <img src="{{ site.cdn }}/{{ best_offer.image }}" alt="">
+                  </a>
+                  <div class="infoDashed">
+                    <div class="information">
+                      <strong class="price">&#8369; {{ best_offer.price }}</strong>
+                      <h4 class="name"><a href="{{ best_offer.link }}">{{ best_offer.title }}</a></h4>
+                      <div class="intro">{{ best_offer.intro }}</div>
+                      <div class="description">{{ best_offer.short_description }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+
+            </div>
+
+            <ul class="flex-direction-nav">
+              <li>
+                <a class="flex-prev" href="#"></a>
+              </li>
+              <li>
+                <a class="flex-next" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+</div>

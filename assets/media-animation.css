@@ -1,0 +1,136 @@
+.article .media {
+        background-size: 72px 72px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        min-height: 150px;
+        height: auto;
+        margin: 68px 0px; }
+
+
+
+.article .media.image { background-image: url(placeholder-image.svg) }
+
+.article .media.image img {
+            display: block;
+            width: 70%;
+            height: auto; }
+.article .media.youtube iframe, .article .media.vimeo iframe, .article .body .media.audio iframe {
+        display: block;
+        width: 796px;
+        height: 448px;
+        border: none; }
+
+.article .media.youtube { background-image: url(placeholder-youtube.svg) }
+
+.article .media.vimeo { background-image: url(placeholder-vimeo.svg) }
+
+.article .media.audio { background-image: url(placeholder-audio.svg) }
+
+        .article .media.audio iframe {
+            width: 100%;
+            height: 166px; }
+
+    .article .media .caption {
+        position: absolute;
+        width: 224px;
+        top: 0;
+        right: -246px; 
+       
+    }
+
+        .article .media .caption h4 { font-family: "Lobster" ; 
+            padding-top: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
+
+        }
+
+        .article .media .caption p, .article .media .caption a {
+            font-size: 0.875rem;
+            line-height: 1.75; }
+
+        .article .media .caption p {
+            position: relative;
+            margin: 10px 0 18px; }
+
+        .article .media .caption p:after {
+            content: "";
+            display: block;
+            width: 18px;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            bottom: -11px;
+            background: #eb2344; }
+
+        .article .media .caption a { color: #4b505a }
+
+        .article .media .caption a.icon.image:before { background-position: -198px 0 }
+
+        .article .media .caption a.icon.video:before { background-position: -216px 0 }
+
+        .article .media .caption a.icon.audio:before { background-position: -234px 0 }
+
+        .article .media .caption a:hover { color: #191a1a }
+@media only screen and (max-width: 1440px) { 
+
+
+
+    .article .media .caption {
+        padding-top: 34px; 
+        background: url(../img/bg_body.jpg) 0 0 repeat;
+        position: relative;
+        width: auto;
+        top: auto;
+        right: auto; }
+}
+
+
+@media only screen and (max-width: 780px) { 
+    .article .media.image img {
+        width: 100%;
+    }
+    .article .media { margin: 68px 0 }
+
+    .article .media.youtube iframe, .article .media.vimeo iframe {
+        width: 634px;
+        height: 357px; }
+
+}
+
+@media only screen and (max-width: 634px) { 
+    .article .media.image img {
+        width: 100%;
+    }
+
+    .article .media.youtube, .article .media.vimeo { margin: 68px 0 }
+
+        .article .media.youtube iframe, .article .media.vimeo iframe {
+            width: 412px;
+            height: 232px; }
+
+}
+
+@media only screen and (max-width: 412px) { 
+
+    .article .media.image img {
+        width: 100%;
+    }
+
+    .article .media, .article .media.youtube, .article .media.vimeo { margin: 34px 0 }
+
+    .article { padding: 34px 0 0 }
+
+    .article .media.youtube iframe, .article .media.vimeo iframe {
+            width: 300px;
+            height: 169px; }
+
+}
+
+
+.hidden_an { opacity: 0 }
+
+.visible { opacity: 1 }
