@@ -4523,6 +4523,10 @@ body{
     position: absolute;
     width: 100%;
   }
+
+  #loader img{
+    left:15%; top:25%;
+  }
 }
 @media (max-width: 768px){
   .products-content .items li{margin-bottom: 40px;}
