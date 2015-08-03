@@ -1,8 +1,9 @@
 # Site Settings
 baseurl: 		""
-#url:   			"http://www.creamofthecraft.co"
-url:            "http://localhost:4000"
-cdn:            "http://localhost:4000"
+url:   			"http://www.creamofthecraft.co"
+cdn:   			"http://www.creamofthecraft.co"
+#url:            "http://localhost:4000"
+#cdn:            "http://localhost:4000"
 title: 			 Cream of the Craft
 
 name: 			<i>Cream Of The</i> Craft
