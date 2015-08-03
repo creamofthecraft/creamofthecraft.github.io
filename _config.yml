@@ -1,19 +1,22 @@
 # Site Settings
 baseurl: 		""
-url:   			"http://www.creamofthecraft.co"
+#url:   			"http://www.creamofthecraft.co"
+url:            "http://localhost:4000"
+cdn:            "http://localhost:4000"
 title: 			 Cream of the Craft
 
 name: 			<i>Cream Of The</i> Craft
 description: 	Showcasing the best of our <i>Craft</i>
 
 
-paginate: 		3
+paginate: 		4
 paginate_path: 	"blog/page:num"
 
 facebook: 		enjoycrafting
 instagram: 		creamofthecraft
 twitter: 		creamofthecraft
 email: 			enjoycreamofthecraft@gmail.com
+phone:          +639176312463
 
 analytics: 		UA-60799700-1
 
@@ -26,3 +29,6 @@ pixel:
   id: 6028598840953
   value: 0.01
   custom_audience: 729985667100309
+fb:
+  pixel:
+    id : 729985667100309

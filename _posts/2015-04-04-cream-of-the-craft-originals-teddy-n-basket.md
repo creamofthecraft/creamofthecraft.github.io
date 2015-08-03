@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		"Cream of the Craft Originals: Teddy 'n Basket"
 type:			post
 navigation: 	false
@@ -17,6 +17,10 @@ author: 		Luchelle of Cream Of The Craft Team
 bio: 			I love crafting and details. I'm passionate of everything I make. 
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
+
+preview_image:  temp/home-product-teddy-n-basket.jpg #457x457
+bg_top_product_detail: images/header-bear.jpg #1920x1080
+image_set1:    ['temp/blog_gallery_1.jpg', 'images/blog_gallery_1jpg']
 
 ---
 

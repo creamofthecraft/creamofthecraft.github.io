@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		About the Crafter
 type:			post
 navigation: 	false
@@ -16,6 +16,8 @@ author: 		Luchelle of Cream Of The Craft Team
 bio: 			I love crafting and details. I'm passionate of everything I make. 
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
+
+preview_image:  temp/products_item_1.jpg
 
 ---
 

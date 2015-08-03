@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		Helloooo, Summer!
 type:			post
 navigation: 	false
@@ -16,6 +16,12 @@ author: 		Luchelle of Cream of the Craft
 bio: 			I love crafting.
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
+
+preview_image:  temp/hello-summer-home.jpg
+
+bg_top_product_detail: images/sand-1200x700.jpg #1920x1080
+
+image_set1:    ['temp/blog_gallery_1.jpg', 'images/blog_gallery_1jpg']
 
 ---
 I can undeniably feel the summer heat and I can’t wait to splash to any beach in the Island.

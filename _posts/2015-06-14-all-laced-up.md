@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		"All Laced Up!"
 type:			post
 navigation: 	false
@@ -21,10 +21,14 @@ bio: 			I love crafting and details. I'm passionate of everything I make.
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
 
+preview_image:  temp/laced-up-home.jpg
+bg_top_product_detail: temp/bg-top-glass-ball.jpg #1920x1080
+
+image_set1:    ['temp/blog_gallery_1.jpg', 'images/blog_gallery_1jpg']
+
+
 ---
 
-## All Laced-up!
- 
 Yes, we do love **Details**! Nothing is too intricate nor too much for a Crafting savvy like us and so we are all in for Mark and Kit’s wedding.
 
 Gold and white motif is an elegant choice. So, the right materials that would best fit their theme were carefully selected. A pretty **white scallop-edged lace** would definitely add class and texture to our Snowy Flowers in shot glasses and vials. And we are just loving each detail that were incorporated. Everything is getting more exciting from here.

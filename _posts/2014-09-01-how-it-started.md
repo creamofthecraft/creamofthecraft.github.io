@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		How it Started
 type:			post
 navigation: 	false
@@ -16,6 +16,8 @@ author: 		Cream Of The Craft Team
 bio: 			We are <i>Cream Of The</i> Craft and we love crafting.
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
+
+preview_image:  temp/products_item_1.jpg
 
 ---
 

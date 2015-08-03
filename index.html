@@ -1,31 +1,140 @@
 ---
-
-layout:     default
-title:      Cream Of The Craft
-type:       home
-navigation: true
-
-date:       2014-05-08
-image:      header-bear.jpg
-excerpt:    The idea of translating our thoughts into actual products and sharing it to everyone was a dream a long time ago. And now.. it has become a <i>reality..</i>
- <a href="/about.html" title="Continue" class="more">Continue</a>
-gradient:   1
-
+layout: landing
 ---
-{% include fb-sdk.html %}
-
-<div class="summary">
-
-  <p>Well, I guess it's quite obvious that we really enjoy working with details. We unleash our inner creativity and put them to work. Through these amazing flowers, we created something unique and something new. Here are the cool works we've done. <a href="/made-with-love.html" title="Continue" class="more">Continue</a></p>
-
-</div>
-
-
-<h2>Get Some Inspiration</h2>
-<p>Check out our posts for the latest updates. You might get some inspiration from us.. We wish to inspire you.</p>
-
-{% for post in paginator.posts %}
-
-  {% include summary.html %}
+{% assign page = site.data.home_page %}
+<div id="page">
+    <div class="home-slider full-height full-min-height">
+      <div class="fixed-baner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {% for header in page.header %}
+            <div class="swiper-slide">
+              <div class="bg bg-bg" style="background-image: url({{ site.cdn }}/{{ header.bg_image }});"></div>
+              <div class="container">
+                <div class="top_bottom">
+                  <div class="table">
+                    <div class="t_td">
+                      <div class="description animation-rotate hidden-320 {{ header.text_contrast }}">{{ header.short_desc }}</div>
+                      <h2 class="animation-scale {{ header.text_contrast }}">{{ header.punch_line }}</h2>
+                      <a href="{{ site.baseurl | prepend: site.url }}{{ header.link }}" class="btn red animation-btn">{{ header.cta }}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="pagination" data-0="margin-bottom:0px;" data-400="margin-bottom:100px;"></div>
+          <!--<div class="wheel-wrap" data-0="margin-bottom:0px;" data-400="margin-bottom:100px;"><div class="wheel"></div></div>-->
+        </div>
+      </div>
+    </div>
   
-{% endfor %}
+    <section class="home-services scale-text">
+      <div class="container">
+        <div class="section-title">
+          <h1>Why we do <b>what we do</b></h1>
+          <div class="description">{{ page.services.description }}</div>
+        </div>
+      </div>
+      <div class="container container1200">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              {% for post in site.posts %}
+              {% assign mod = forloop.index | modulo : 4 %}
+              <div class="swiper-slide {% if mod == 0 %}mr0{% endif %}">
+                <a href="{{ site.baseurl | prepend: site.url }}{{ post.url | remove: '/index.html'}}">
+                  <img src="{{ site.cdn }}/{{ post.preview_image }}" alt="">
+                </a>
+                <h4 class="name"><a href="{{ site.baseurl | prepend: site.url }}{{ post.url | remove: '/index.html'}}">{{ post.title }}</a></h4>
+                <div class="description">{{ post.excerpt | strip_html | truncatewords :20 }}</div>
+              </div>
+              {% endfor %}
+            </div>
+            <ul class="flex-direction-nav">
+              <li>
+                <a class="flex-prev" href="#"></a>
+              </li>
+              <li>
+                <a class="flex-next" href="#"></a>
+              </li>
+            </ul>
+          </div>
+
+        <a href="{{ site.baseurl }}{{ page.products.url }}" class="btn brown">view aur products</a>
+      </div>
+    </section>
+
+    <section class="home-products scale-text">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          {% for featured in site.pages %}
+          {% if featured.is_featured == true %}
+
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="wrap">
+                <div class="inner">
+                  <div class="content">
+                    {%if site.prod.prod_link %}
+                    {% capture link %}
+                      {{ featured.url | remove: '/index.html' | prepend: site.baseurl | prepend: site.url }}
+                    {% endcapture %}
+                    {% else %}
+                      {% assign link = '#' %}
+                    {% endif %}
+                    <a href="{{ link }}" class="image hidden-xs-757">
+                      <img src="{{ featured.featured.image }}" alt="">
+                    </a>
+                    <div class="information">
+                      <div class="wrap">
+                        <h4 class="name"><a href="{{ link }}">{{ featured.featured.title }}</a></h4>
+                        <div class="description">{{ featured.featured.description }}</div>
+                        <strong class="price">&#8369; {{ featured.featured.price }}</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {% endif %}
+        {% endfor %}
+        
+
+          
+        </div>
+        <ul class="flex-direction-nav">
+          <li>
+            <a class="flex-prev" href="#"></a>
+          </li>
+          <li>
+            <a class="flex-next" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-our-services scale-text">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our <b>Services</b></h2>
+          <div class="description">We put on our creative thinking hats and come up with the best handmade crafts for you.</div>
+        </div>
+        <div class="services">
+          <ul class="items">
+            {% for service in site.data.services limit: 3%}
+            <li class="{{ service.css_icon }}">
+              <a href="#" class="image"></a>
+              <h3><a href="#">{{ service.name }}</a></h3>
+              <div class="description">{{ service.description }}</div>
+            </li>
+            {% endfor %}
+          </ul>      
+        </div>
+        <a href="{{ site.baseurl }}/services" class="btn brown">view all aur services</a>
+      </div>
+    </section>
+</div>

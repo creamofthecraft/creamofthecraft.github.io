@@ -1,6 +1,6 @@
 ---
 
-layout:			default
+layout:			blog
 title:  		"Just got Shabby Chic’d"
 type:			post
 navigation: 	false
@@ -20,6 +20,11 @@ bio: 			I love crafting and details. I'm passionate of everything I make.
 twitter: 		"http://twitter.com/creamofthecraft"
 facebook: 		"http://facebook.com/enjoycrafting"
 
+preview_image:  temp/shabby-chicd-home.jpg
+
+bg_top_product_detail: images/header-shabby-chic-1200x700.jpg #1920x1080
+
+image_set1:    ['temp/blog_gallery_1.jpg', 'images/blog_gallery_1jpg']
 ---
 
 ## Lace and Vintage Look
