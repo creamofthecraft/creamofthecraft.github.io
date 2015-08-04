@@ -16,7 +16,7 @@ is_featured: true
 featured:
   image: temp/home-product-glass-ball.jpg #457x457
   title: Elegant Sphere
-  description: "Snowy Flowers in a Glass Ball. This elegant arragement comes with 20 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
+  description: "Snowy Flowers in a Glass Ball. This elegant arragement comes with 30 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
   price: 699
 ---
 

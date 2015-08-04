@@ -6,7 +6,7 @@ star:	5
 product:
   price: 599
   title: Glass Bowl
-  short_desc: comes with 20 pieces of snowy flowers with FREE spray.
+  short_desc: comes with 30 pieces of snowy flowers with FREE spray.
   product_item_img: temp/products-glass-bowl.jpg
   category: glass
 
@@ -16,7 +16,7 @@ is_featured: true
 featured:
   image: temp/home-product-glass-bowl.jpg
   title: a Bowl of Love
-  description: "Snowy Flowers in a Glass Bowl. This elegant arragement comes with 20 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
+  description: "Snowy Flowers in a Glass Bowl. This elegant arragement comes with 30 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
   price: 599
 ---
 
