@@ -1,7 +1,7 @@
 header:
   - bg_image : temp/header-bear.jpg
     short_desc: Everything we do
-    punch_line: We make with Love
+    punch_line: Is made with Love
     cta: learn more about us
     link: /services
   - bg_image : temp/home-banner-3.jpg

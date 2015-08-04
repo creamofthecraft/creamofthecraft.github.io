@@ -17,7 +17,7 @@ featured:
   image: temp/home-product-glass-bowl.jpg
   title: a Bowl of Love
   description: "Snowy Flowers in a Glass Bowl. This elegant arragement comes with 20 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
-  price: 649
+  price: 599
 ---
 
 Proin at interdum risus, interdum congue est. Sed convallis hendrerit enim. Donec mollis lacus magna. Nunc aliquam tellus ut vulputate mollis. Pellentesque a justo et orci imperdiet suscipit eu sed justo. Vestibulum eu erat lorem. Cras sit amet consequat ante, sit amet volutpat lacus.
