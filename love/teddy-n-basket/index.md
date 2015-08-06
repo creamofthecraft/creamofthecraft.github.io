@@ -16,7 +16,7 @@ is_featured: true
 featured:
   image: temp/home-product-teddy-n-basket.jpg
   title: Meet Teddy
-  description: "Snowy Flowers in a Glass Bowl. This elegant arragement comes with 20 pieces of snowy flowers. They are best as a token of appreciation. This will surely paint a smile in her face."
+  description: "Say Hello to Teddy! Teddy 'n a Basket is one of our original designs. Teddy looks cute holding 20 flowers in his belly. This is best for your special someone. Be it an anniversary or a birthday present. This surely will melt her heart."
   price: 599
 ---
 
