@@ -1601,6 +1601,31 @@ a.rounded-ico:focus{
 .ico.instagram, #header .instagram.close-nav, .home-services .flex-direction-nav a.instagram, .home-products .flex-direction-nav a.instagram, .home-testimonials .flex-direction-nav a.instagram, .product-detail-content .related-products .flex-direction-nav a.instagram, .blog-detail-content .gallery .flex-direction-nav a.instagram.flex-prev, .blog-detail-content .gallery .flex-direction-nav a.instagram.flex-next, .services-content .best-offers .flex-direction-nav a.instagram, .about-us-content .gallery .flex-direction-nav a.instagram.flex-prev, .about-us-content .gallery .flex-direction-nav a.instagram.flex-next, .meet-our-team .flex-direction-nav a.instagram, .testimonials .flex-direction-nav a.instagram {
   background: url(../img/ico_social_instagram.png) 50% 50% no-repeat;
 }
+
+.ico.instagram, #header .instagram.close-nav, .home-services .flex-direction-nav a.instagram, .home-products .flex-direction-nav a.instagram, .home-testimonials .flex-direction-nav a.instagram, .product-detail-content .related-products .flex-direction-nav a.instagram, .blog-detail-content .gallery .flex-direction-nav a.instagram.flex-prev, .blog-detail-content .gallery .flex-direction-nav a.instagram.flex-next, .services-content .best-offers .flex-direction-nav a.instagram, .about-us-content .gallery .flex-direction-nav a.instagram.flex-prev, .about-us-content .gallery .flex-direction-nav a.instagram.flex-next, .meet-our-team .flex-direction-nav a.instagram, .testimonials .flex-direction-nav a.instagram {
+  background: url(../img/ico_social_instagram.png) 50% 50% no-repeat;
+}
+
+#header .fa-3{
+    font-size: 1.75em;
+    color: white;
+    padding-top: .6em;
+}
+
+#footer .fa-3{
+    font-size: 1.75em;
+    color: #8C6F71;
+    padding-top: .8em;
+}
+#header .fa-facebook{
+  padding-left: .75em;
+}
+#header .fa-instagram{
+  padding-left: .6em;
+}
+#header .fa-paper-plane-o{
+  padding-left: .5em;
+}
 .ico.email, #header .email.close-nav, .home-services .flex-direction-nav a.email, .home-products .flex-direction-nav a.email, .home-testimonials .flex-direction-nav a.email, .product-detail-content .related-products .flex-direction-nav a.email, .blog-detail-content .gallery .flex-direction-nav a.email.flex-prev, .blog-detail-content .gallery .flex-direction-nav a.email.flex-next, .services-content .best-offers .flex-direction-nav a.email, .about-us-content .gallery .flex-direction-nav a.email.flex-prev, .about-us-content .gallery .flex-direction-nav a.email.flex-next, .meet-our-team .flex-direction-nav a.email, .testimonials .flex-direction-nav a.email {
   background: url(../img/ico_social_email.png) 50% 50% no-repeat;
 }
@@ -2209,7 +2234,7 @@ li.menu-item-has-children:after {content:  url(../img/menu_arrow.png);display: i
 .home-products {
   padding: 150px 0;
   text-align: center;
-  background: url(../img/bg-home-offers-paralax.jpg) 0 0 no-repeat;
+  background: url(../temp/bg-home-products-parallax.jpg) 0 0 no-repeat;
   background-attachment:fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
