@@ -2022,7 +2022,7 @@ display: block; }
   #header .logo .icon { top: 21px; width: 50px; height: 61px; margin-left: -25px; -webkit-background-size: contain; -moz-background-size: contain;
     -o-background-size: contain; background-size: contain; }
   #header .logo h1 { font-family: 'Lobster' ; font-size: 1.3em; line-height: 1em; }
-  #header .logo strong { font-familty: 'Roboto', sans-serif ; font-size: 1.3em; line-height: 1em; }
+  #header .logo strong { font-familty: 'Oswald', sans-serif ; font-size: 1.3em; line-height: 1em; }
   #header .hgroup { display: none; position: absolute; top: 0; left: 0; width: 100%; padding: 80px 10px 20px; background: url(../img/bg_body.jpg) 0 0 repeat; z-index: 9999; }
   #header .hgroup .main-nav { float: none; margin: 0; }
   #header .hgroup .main-nav:before, #header .hgroup .main-nav:after { display: none; }
