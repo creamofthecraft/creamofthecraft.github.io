@@ -3367,13 +3367,13 @@ transform: translate(-50%, -50%);
 }
 .services-content .best-offers {
   padding: 90px 0 110px;
-  background: url(../img/bg_home_services-paralax.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
+  background: linear-gradient(rgba(233,30,99, 0.470588), rgba(233,30,99, 0.470588)), url(/temp/bg-home-products-parallax.jpg) 0 0 no-repeat;
 }
 .services-content .best-offers .slider {
   text-align: center;
