@@ -4,9 +4,9 @@ categories: product
 is_product: true
 star:	4
 product:
-  price: 549
+  price: 399
   title: Tea Cup
-  short_desc: Cute Tea Cups contains 12 snowy flowers. Are you a morning person, this surely will energize your day.
+  short_desc: Cute Tea Cups contains 20 snowy flowers. Are you a morning person, this surely will energize your day.
   product_item_img: temp/products-tea-cup.jpg
   category: glass
 

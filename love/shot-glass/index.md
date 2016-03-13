@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	4
 product:
-  price: 280
+  price: 249
   title: Shot Glass
   short_desc: Elegant Shot Glass contains 12 snowy flowers. The beauty of the flowers radiate in all corners.
   product_item_img: temp/products-shot-glass.jpg

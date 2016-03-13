@@ -6,7 +6,7 @@ star:	4
 product:
   price: 99
   title: Large Vials
-  short_desc: "2 and a half inch vial with 3 snowy flowers. hp 99 | Special Price: Php 95 for orders 100pcs and up"
+  short_desc: "2 and a half inch vial with 4 snowy flowers. hp 99 | Special Price: Php 95 for orders 100pcs and up"
   product_item_img: temp/products-large-vial.jpg
   category: vials
 

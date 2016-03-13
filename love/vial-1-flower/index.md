@@ -1,17 +1,17 @@
 ---
 layout: product_detail
-is_product: true
 categories: product
 is_product: true
 star:	3
 product:
-  price: 210
-  title: Metal Baby Carriage
-  short_desc: comes with 12 pieces of snowy flowers with FREE spray.
-  product_item_img: temp/products-metal-carriage.jpg
-  category: basket
+  price: 58
+  title: Single Flower Vial
+  short_desc: 1 special flower for 1 special person.
+  product_item_img: temp/products-1-vial.jpg #270x270
+  category: vials
 
-bg_top_product_detail: temp/home-banner-2.jpg
+bg_top_product_detail: temp/bg-top-glass-ball.jpg #1920x1080
+
 ---
 
 Proin at interdum risus, interdum congue est. Sed convallis hendrerit enim. Donec mollis lacus magna. Nunc aliquam tellus ut vulputate mollis. Pellentesque a justo et orci imperdiet suscipit eu sed justo. Vestibulum eu erat lorem. Cras sit amet consequat ante, sit amet volutpat lacus.

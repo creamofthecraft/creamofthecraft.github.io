@@ -6,7 +6,7 @@ star:	4
 product:
   price: 199
   title: Heart Basket
-  short_desc: Our original Heart baskets contains 8 pieces of flowers.
+  short_desc: Our original Heart baskets contains 12 pieces of flowers.
   product_item_img: temp/products-heart-basket.jpg
   category: basket
 

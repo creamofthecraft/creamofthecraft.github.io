@@ -6,7 +6,7 @@ is_product: true
 star:	4
 
 product:
-  price: 250
+  price: 249
   title: Pimiento Jar
   short_desc: Elegant Pimiento Jar contains 12 pieces of flowers.
   product_item_img: temp/products-pimiento-jar.jpg

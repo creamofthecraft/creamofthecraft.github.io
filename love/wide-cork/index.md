@@ -4,7 +4,7 @@ categories: product
 is_product: true
 star:	4
 product:
-  price: 280
+  price: 279
   title: Wide Cork
   short_desc: Elegant Wide Cork contains 8 snowy flowers. A perfect token.
   product_item_img: temp/products-wide-cork.jpg
